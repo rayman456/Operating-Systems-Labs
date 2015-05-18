@@ -1,0 +1,22 @@
+generic
+   type Item is private;
+   Max_Resource : in Positive;
+package Monitor is
+
+   subtype Item_Range is Positive range 1..Max_Resource;
+   type Reservable_Item is record
+      Reserved : Boolean := False;
+      Resource : Item;
+   end record;
+   type Reservable_Item_Array is array (Item_Range) of Item;
+   type Item_Pointer is access Item;
+
+   protected type Resource_Monitor is
+      entry Reserve (Id : out Integer; Item_Address : out Item_Pointer);
+      procedure Release (Id : in Integer);
+      function Available return Boolean;
+   private
+      Resource_List : Reservable_Item_Array;
+   end Resource_Monitor;
+
+end Monitor;

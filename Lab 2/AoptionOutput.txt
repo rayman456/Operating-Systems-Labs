@@ -1,0 +1,502 @@
+Enter # of Ships: Enter # of Officers: Creating 10 ships and  3 officers...
+Shuttle operations are authorized.
+Shuttle # 3 reserved Landing Officer #1.
+Shuttle # 3 entering its critical section.
+
+Shuttle #10 reserved Landing Officer #2.
+Shuttle #10 entering its critical section.
+
+Shuttle # 8 reserved Landing Officer #3.
+Shuttle # 8 entering its critical section.
+
+Shuttle # 3 is granted permission to land.
+Shuttle #10 is granted permission to land.
+Shuttle # 8 is granted permission to land.
+Shuttle # 8 call the ball!
+Shuttle # 3 call the ball!
+Shuttle # 8, permission granted for final approach.
+Shuttle #10 call the ball!
+Shuttle # 3, permission granted for final approach.
+Shuttle #10, permission granted for final approach.
+Shuttle #10 docked in 11.884153289 seconds.
+Shuttle #10 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle #10 has taken off!
+Shuttle # 2 reserved Landing Officer #2.
+Shuttle # 2 entering its critical section.
+
+Shuttle # 3 docked in 13.072927705 seconds.
+Shuttle # 3 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 3 has taken off!
+Shuttle # 7 reserved Landing Officer #1.
+Shuttle # 7 entering its critical section.
+
+Shuttle # 8 docked in 13.053451504 seconds.
+Shuttle # 8 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 8 has taken off!
+Shuttle # 6 reserved Landing Officer #3.
+Shuttle # 6 entering its critical section.
+
+Shuttle # 2 is granted permission to land.
+Shuttle # 7 is granted permission to land.
+Shuttle # 6 is granted permission to land.
+Shuttle # 6 call the ball!
+Shuttle # 2 call the ball!
+Shuttle # 6, permission granted for final approach.
+Shuttle # 7 call the ball!
+Shuttle # 2, permission granted for final approach.
+Shuttle # 7, permission granted for final approach.
+Shuttle # 6 docked in 11.647322696 seconds.
+Shuttle # 6 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 6 has taken off!
+Shuttle # 5 reserved Landing Officer #3.
+Shuttle # 5 entering its critical section.
+
+Shuttle # 7 docked in 13.299440298 seconds.
+Shuttle # 7 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 7 has taken off!
+Shuttle # 1 reserved Landing Officer #1.
+Shuttle # 1 entering its critical section.
+
+Shuttle # 5 is granted permission to land.
+Shuttle # 1 is granted permission to land.
+Shuttle # 1 call the ball!
+Shuttle # 5 call the ball!
+Shuttle # 2 docked in 19.800390112 seconds.
+Shuttle # 2 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 2 has taken off!
+Shuttle # 4 reserved Landing Officer #2.
+Shuttle # 4 entering its critical section.
+
+Shuttle # 5, permission granted for final approach.
+Shuttle # 1, permission granted for final approach.
+Shuttle # 5 docked in  9.315166721 seconds.
+Shuttle # 5 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 5 has taken off!
+Shuttle # 9 reserved Landing Officer #3.
+Shuttle # 9 entering its critical section.
+
+Shuttle # 9 is granted permission to land.
+Shuttle # 4 is granted permission to land.
+Shuttle # 9 call the ball!
+Shuttle # 9, permission granted for final approach.
+Shuttle # 4 call the ball!
+Shuttle # 1 docked in 10.802099981 seconds.
+Shuttle # 1 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 1 has taken off!
+Shuttle # 8 reserved Landing Officer #1.
+Shuttle # 8 entering its critical section.
+
+Shuttle # 4, permission granted for final approach.
+Shuttle # 8 is granted permission to land.
+Shuttle # 4 docked in  9.140220848 seconds.
+Shuttle # 4 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 4 has taken off!
+Shuttle #10 reserved Landing Officer #2.
+Shuttle #10 entering its critical section.
+
+Shuttle #10 is granted permission to land.
+Shuttle # 8 call the ball!
+Shuttle #10 call the ball!
+Shuttle # 9 docked in 10.247221937 seconds.
+Shuttle # 9 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 9 has taken off!
+Shuttle # 3 reserved Landing Officer #3.
+Shuttle # 3 entering its critical section.
+
+Shuttle # 8, permission granted for final approach.
+Shuttle # 3 is granted permission to land.
+Shuttle # 3 call the ball!
+Shuttle #10, permission granted for final approach.
+Shuttle # 3, permission granted for final approach.
+Shuttle # 8 docked in 11.555429858 seconds.
+Shuttle # 8 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 8 has taken off!
+Shuttle # 7 reserved Landing Officer #1.
+Shuttle # 7 entering its critical section.
+
+Shuttle # 3 docked in  6.358946337 seconds.
+Shuttle # 3 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 3 has taken off!
+Shuttle # 6 reserved Landing Officer #3.
+Shuttle # 6 entering its critical section.
+
+Shuttle # 7 is granted permission to land.
+Shuttle #10 docked in 11.573173490 seconds.
+Shuttle #10 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle #10 has taken off!
+Shuttle # 1 reserved Landing Officer #2.
+Shuttle # 1 entering its critical section.
+
+Shuttle # 1 is granted permission to land.
+Shuttle # 1 call the ball!
+Shuttle # 6 is granted permission to land.
+Shuttle # 1, permission granted for final approach.
+Shuttle # 7 call the ball!
+Shuttle # 7, permission granted for final approach.
+Shuttle # 6 call the ball!
+Shuttle # 6, permission granted for final approach.
+Shuttle # 1 docked in 10.827351899 seconds.
+Shuttle # 1 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 1 has taken off!
+Shuttle # 2 reserved Landing Officer #2.
+Shuttle # 2 entering its critical section.
+
+Shuttle # 7 docked in 16.201286868 seconds.
+Shuttle # 7 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 7 has taken off!
+Shuttle # 5 reserved Landing Officer #1.
+Shuttle # 5 entering its critical section.
+
+Shuttle # 2 is granted permission to land.
+Shuttle # 6 docked in 14.477701424 seconds.
+Shuttle # 6 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 6 has taken off!
+Shuttle # 4 reserved Landing Officer #3.
+Shuttle # 4 entering its critical section.
+
+Shuttle # 5 is granted permission to land.
+Shuttle # 2 call the ball!
+Shuttle # 4 is granted permission to land.
+Shuttle # 4 call the ball!
+Shuttle # 2, permission granted for final approach.
+Shuttle # 4, permission granted for final approach.
+Shuttle # 2 docked in  6.561890395 seconds.
+Shuttle # 2 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 2 has taken off!
+Shuttle # 8 reserved Landing Officer #2.
+Shuttle # 8 entering its critical section.
+
+Shuttle # 4 docked in  5.170560752 seconds.
+Shuttle # 4 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 4 has taken off!
+Shuttle # 9 reserved Landing Officer #3.
+Shuttle # 9 entering its critical section.
+
+Shuttle # 5 call the ball!
+Shuttle # 8 is granted permission to land.
+Shuttle # 8 call the ball!
+Shuttle # 9 is granted permission to land.
+Shuttle # 8, permission granted for final approach.
+Shuttle # 5, permission granted for final approach.
+Shuttle # 9 call the ball!
+Shuttle # 9, permission granted for final approach.
+Shuttle # 5 docked in 14.401690717 seconds.
+Shuttle # 5 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 5 has taken off!
+Shuttle # 3 reserved Landing Officer #1.
+Shuttle # 3 entering its critical section.
+
+Shuttle # 8 docked in 10.663261288 seconds.
+Shuttle # 8 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 8 has taken off!
+Shuttle #10 reserved Landing Officer #2.
+Shuttle #10 entering its critical section.
+
+Shuttle # 9 docked in 12.213456766 seconds.
+Shuttle # 9 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 9 has taken off!
+Shuttle # 7 reserved Landing Officer #3.
+Shuttle # 7 entering its critical section.
+
+Shuttle #10 is granted permission to land.
+Shuttle # 3 is granted permission to land.
+Shuttle # 7 is granted permission to land.
+Shuttle # 7 call the ball!
+Shuttle # 3 call the ball!
+Shuttle #10 call the ball!
+Shuttle # 3, permission granted for final approach.
+Shuttle # 7, permission granted for final approach.
+Shuttle #10, permission granted for final approach.
+Shuttle #10 docked in 10.690478318 seconds.
+Shuttle #10 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle #10 has taken off!
+Shuttle # 6 reserved Landing Officer #2.
+Shuttle # 6 entering its critical section.
+
+Shuttle # 6 is granted permission to land.
+Shuttle # 6 call the ball!
+Shuttle # 7 docked in 12.161213957 seconds.
+Shuttle # 7 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 7 has taken off!
+Shuttle # 1 reserved Landing Officer #3.
+Shuttle # 1 entering its critical section.
+
+Shuttle # 1 is granted permission to land.
+Shuttle # 6, permission granted for final approach.
+Shuttle # 3 docked in 19.655302178 seconds.
+Shuttle # 3 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 3 has taken off!
+Shuttle # 4 reserved Landing Officer #1.
+Shuttle # 4 entering its critical section.
+
+Shuttle # 1 call the ball!
+Shuttle # 4 is granted permission to land.
+Shuttle # 4 call the ball!
+Shuttle # 6 docked in 10.042056068 seconds.
+Shuttle # 6 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 6 has taken off!
+Shuttle # 2 reserved Landing Officer #2.
+Shuttle # 2 entering its critical section.
+
+Shuttle # 1, permission granted for final approach.
+Shuttle # 4, permission granted for final approach.
+Shuttle # 2 is granted permission to land.
+Shuttle # 1 docked in 10.927478298 seconds.
+Shuttle # 1 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 1 has taken off!
+Shuttle # 9 reserved Landing Officer #3.
+Shuttle # 9 entering its critical section.
+
+Shuttle # 2 call the ball!
+Shuttle # 2, permission granted for final approach.
+Shuttle # 9 is granted permission to land.
+Shuttle # 9 call the ball!
+Shuttle # 4 docked in 13.170285137 seconds.
+Shuttle # 4 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 4 has taken off!
+Shuttle # 5 reserved Landing Officer #1.
+Shuttle # 5 entering its critical section.
+
+Shuttle # 9, permission granted for final approach.
+Shuttle # 5 is granted permission to land.
+Shuttle # 5 call the ball!
+Shuttle # 2 docked in 17.421359006 seconds.
+Shuttle # 2 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 2 has taken off!
+Shuttle # 8 reserved Landing Officer #2.
+Shuttle # 8 entering its critical section.
+
+Shuttle # 5, permission granted for final approach.
+Shuttle # 5 docked in  7.652995675 seconds.
+Shuttle # 5 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 5 has taken off!
+Shuttle #10 reserved Landing Officer #1.
+Shuttle #10 entering its critical section.
+
+Shuttle # 8 is granted permission to land.
+Shuttle # 9 docked in 17.238343427 seconds.
+Shuttle # 9 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 9 has taken off!
+Shuttle # 3 reserved Landing Officer #3.
+Shuttle # 3 entering its critical section.
+
+Shuttle #10 is granted permission to land.
+Shuttle # 8 call the ball!
+Shuttle #10 call the ball!
+Shuttle # 3 is granted permission to land.
+Shuttle #10, permission granted for final approach.
+Shuttle # 8, permission granted for final approach.
+Shuttle # 3 call the ball!
+Shuttle # 3, permission granted for final approach.
+Shuttle #10 docked in 15.295488247 seconds.
+Shuttle #10 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle #10 has taken off!
+Shuttle # 7 reserved Landing Officer #1.
+Shuttle # 7 entering its critical section.
+
+Shuttle # 8 docked in 18.041546745 seconds.
+Shuttle # 8 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 8 has taken off!
+Shuttle # 1 reserved Landing Officer #2.
+Shuttle # 1 entering its critical section.
+
+Shuttle # 1 is granted permission to land.
+Shuttle # 7 is granted permission to land.
+Shuttle # 3 docked in 16.126179263 seconds.
+Shuttle # 3 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 3 has taken off!
+Shuttle # 6 reserved Landing Officer #3.
+Shuttle # 6 entering its critical section.
+
+Shuttle # 6 is granted permission to land.
+Shuttle # 7 call the ball!
+Shuttle # 1 call the ball!
+Shuttle # 1, permission granted for final approach.
+Shuttle # 1 docked in  7.101037068 seconds.
+Shuttle # 1 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 1 has taken off!
+Shuttle # 5 reserved Landing Officer #2.
+Shuttle # 5 entering its critical section.
+
+Shuttle # 5 is granted permission to land.
+Shuttle # 7, permission granted for final approach.
+Shuttle # 6 call the ball!
+Shuttle # 5 call the ball!
+Shuttle # 6, permission granted for final approach.
+Shuttle # 5, permission granted for final approach.
+Shuttle # 7 docked in 15.406382015 seconds.
+Shuttle # 7 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 7 has taken off!
+Shuttle # 4 reserved Landing Officer #1.
+Shuttle # 4 entering its critical section.
+
+Shuttle # 5 docked in  7.120969622 seconds.
+Shuttle # 5 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 5 has taken off!
+Shuttle # 9 reserved Landing Officer #2.
+Shuttle # 9 entering its critical section.
+
+Shuttle # 4 is granted permission to land.
+Shuttle # 4 call the ball!
+Shuttle # 4, permission granted for final approach.
+Shuttle # 9 is granted permission to land.
+Shuttle # 6 docked in 15.227608073 seconds.
+Shuttle # 6 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 6 has taken off!
+Shuttle # 2 reserved Landing Officer #3.
+Shuttle # 2 entering its critical section.
+
+Shuttle # 2 is granted permission to land.
+Shuttle # 9 call the ball!
+Shuttle # 9, permission granted for final approach.
+Shuttle # 2 call the ball!
+Shuttle # 4 docked in  7.921070439 seconds.
+Shuttle # 4 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 4 has taken off!
+Shuttle #10 reserved Landing Officer #1.
+Shuttle #10 entering its critical section.
+
+Shuttle #10 is granted permission to land.
+Shuttle # 2, permission granted for final approach.
+Shuttle #10 call the ball!
+Shuttle #10, permission granted for final approach.
+Shuttle # 2 docked in  6.953044249 seconds.
+Shuttle # 2 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 2 has taken off!
+Shuttle # 8 reserved Landing Officer #3.
+Shuttle # 8 entering its critical section.
+
+Shuttle #10 docked in  6.565072643 seconds.
+Shuttle #10 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle #10 has taken off!
+Shuttle # 3 reserved Landing Officer #1.
+Shuttle # 3 entering its critical section.
+
+Shuttle # 8 is granted permission to land.
+Shuttle # 9 docked in 15.069388350 seconds.
+Shuttle # 9 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 9 has taken off!
+Shuttle # 7 reserved Landing Officer #2.
+Shuttle # 7 entering its critical section.
+
+Shuttle # 3 is granted permission to land.
+Shuttle # 3 call the ball!
+Shuttle # 7 is granted permission to land.
+Shuttle # 8 call the ball!
+Shuttle # 3, permission granted for final approach.
+Shuttle # 8, permission granted for final approach.
+Shuttle # 7 call the ball!
+Shuttle # 7, permission granted for final approach.
+Shuttle # 3 docked in 10.492204310 seconds.
+Shuttle # 3 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 3 has taken off!
+Shuttle # 1 reserved Landing Officer #1.
+Shuttle # 1 entering its critical section.
+
+Shuttle # 1 is granted permission to land.
+Shuttle # 8 docked in 17.421461453 seconds.
+Shuttle # 8 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 8 has taken off!
+Shuttle # 6 reserved Landing Officer #3.
+Shuttle # 6 entering its critical section.
+
+Shuttle # 1 call the ball!
+Shuttle # 7 docked in 14.729595449 seconds.
+Shuttle # 7 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 7 has taken off!
+Shuttle # 5 reserved Landing Officer #2.
+Shuttle # 5 entering its critical section.
+
+Shuttle # 5 is granted permission to land.
+Shuttle # 1, permission granted for final approach.
+Shuttle # 6 is granted permission to land.
+Shuttle # 5 call the ball!
+Shuttle # 5, permission granted for final approach.
+Shuttle # 1 docked in  8.979063062 seconds.
+Shuttle # 1 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 1 has taken off!
+Shuttle # 9 reserved Landing Officer #1.
+Shuttle # 9 entering its critical section.
+
+Shuttle # 5 docked in  4.928771104 seconds.
+Shuttle # 5 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 5 has taken off!
+Shuttle # 4 reserved Landing Officer #2.
+Shuttle # 4 entering its critical section.
+
+Shuttle # 6 call the ball!
+Shuttle # 9 is granted permission to land.
+Shuttle # 9 call the ball!
+Shuttle # 6, permission granted for final approach.
+Shuttle # 4 is granted permission to land.
+Shuttle # 9, permission granted for final approach.
+Shuttle # 4 call the ball!
+Shuttle # 6 docked in 14.407490010 seconds.
+Shuttle # 6 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 6 has taken off!
+Shuttle # 2 reserved Landing Officer #3.
+Shuttle # 2 entering its critical section.
+
+Shuttle # 2 is granted permission to land.
+Shuttle # 4, permission granted for final approach.
+Shuttle # 2 call the ball!
+Shuttle # 4 docked in 11.065185130 seconds.
+Shuttle # 4 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 4 has taken off!
+Shuttle # 9 docked in 12.982606782 seconds.
+Shuttle # 9 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 9 has taken off!
+Shuttle # 2, permission granted for final approach.
+Shuttle # 2 docked in 12.982969420 seconds.
+Shuttle # 2 is leaving its critical section.  Obtain new crew and start next mission.
+
+Shuttle # 2 has taken off!

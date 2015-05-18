@@ -1,0 +1,111 @@
+with Ada.Text_IO, Ada.Calendar, Ada.Numerics.Float_Random, Semaphore;
+use Ada.Text_IO, Ada.Calendar, Ada.Numerics.Float_Random, Semaphore;
+
+procedure Coption is
+
+   package Duration_IO is new Ada.Text_IO.Fixed_IO(duration);  use Duration_IO;
+   package integerIO is new Ada.Text_IO.Integer_IO(integer); use integerIO;
+
+   randNum: Generator;
+
+   ShipCount : Integer;
+   OfficerCount : Integer;
+
+begin
+   Put("Enter # of Ships: "); Get(ShipCount);
+   Put("Enter # of Officers: ") Get(OfficerCount);
+   Put("Creating "); Put(ShipCount) Put(" ships and "); Put(OfficerCount); Put(" officers..."); New_Line;
+   declare
+      OfficerSemaphore : Counting_Semaphore(OfficerCount); --Controls number of ships allowed to land at once
+      OfficerMutex : Counting_Semaphore; --Allows for mutual exclusion when picking a landing officer to use.
+
+      task type Spaceship is
+         entry Assign(ShuttleId : in Integer);
+      end Spaceship;
+
+      task type LandingOfficer is
+         entry PermissionToLand (ShuttleId : in Integer);
+         entry CallTheBall (ShuttleId : in Integer);
+         entry TouchDown (ShuttleId: in Integer);
+      end LandingOfficer;
+
+      LandingOfficerReserve : array (1..OfficerCount) of Boolean := (others => False);
+      LandingOfficerArray : array (1..OfficerCount) of LandingOfficer;
+      SpaceshipArray : array (1..ShipCount) of Spaceship;
+
+      task body Spaceship is
+         initiateLandingSequence: Duration;
+         LandingComplete: Duration;
+         LandingOfficerNumber : Integer;
+         ID : Integer;
+      begin
+         accept Assign (ShuttleId : in Integer) do
+            ID  := ShuttleId;
+         end Assign;
+
+         for I in 1..5 loop
+            delay Duration(Random(RandNum) * 15.0);  --Crew performing mission.
+
+            OfficerSemaphore.Secure;  --Secure position in landing queue
+
+            OfficerMutex.Secure; --Secure Landing Officer to use
+            OfficerLoop:
+               for I in Integer range LandingOfficerReserve'Range loop
+                  if LandingOfficerReserve(I) = False then
+                     LandingOfficerNumber := I;
+                     LandingOfficerReserve(I) := True;
+                     exit OfficerLoop;
+                  end if;
+               end loop OfficerLoop;
+            put("Shuttle #"); put(ID, 2); put(" reserved Landing Officer #"); put(LandingOfficerNumber, 1); put("."); new_line;
+            OfficerMutex.Release;
+
+            put("Shuttle #"); put(ID, 2); put(" entering its critical section.");  new_line(2);
+            initiateLandingSequence:= seconds(clock);
+            LandingOfficerArray(LandingOfficerNumber).PermissionToLand(ID);
+            LandingOfficerArray(LandingOfficerNumber).CallTheBall(ID);
+            delay Duration(Random(randNum) * 3.0); -- line up shuttle with mother ship
+            LandingOfficerArray(LandingOfficerNumber).TouchDown(ID);
+            landingComplete := seconds(clock);
+            put("Shuttle #"); put(ID, 2); put(" docked in "); put( landingComplete - initiateLandingSequence, 2 );
+            put(" seconds." ); new_line;
+            put("Shuttle #"); put(ID, 2); put(" is leaving its critical section.  Obtain new crew and start next mission.");
+            New_Line(2);
+
+            OfficerMutex.Secure; --Release Landing Officer
+            LandingOfficerReserve(LandingOfficerNumber) := False;
+            put("Landing Officer #"); put(LandingOfficerNumber, 1); put(" is now free for use."); new_line;
+            OfficerMutex.Release;
+
+            OfficerSemaphore.Release; -- Free position in landing queue
+
+            put("Shuttle #"); put(ID, 2); put(" has taken off!"); new_line;
+         end loop;
+      end Spaceship;
+
+      task body LandingOfficer is
+      begin
+         loop
+            accept PermissionToLand (ShuttleId : in Integer) do
+               delay Duration(Random(RandNum) * 5.0);
+               put("Shuttle #"); put(ShuttleId, 2); put(" is granted permission to land."); new_line;
+            end PermissionToLand;
+
+            accept CallTheBall (ShuttleId : in Integer) do
+               delay Duration(Random(RandNum) * 5.0);
+               put("Shuttle #"); put(ShuttleId, 2); put(" call the ball!"); new_line;
+            end CallTheBall;
+
+            accept TouchDown (ShuttleId : in Integer) do
+               put("Shuttle #"); put(ShuttleId, 2); Put(", permission granted for final approach."); New_Line;
+               delay Duration(Random(RandNum) * 10.0);
+            end Touchdown;
+         end loop;
+      end LandingOfficer;
+   begin
+      for I in SpaceshipArray'Range loop
+         SpacehipArray(I).Assign(I);
+      end loop;
+      Put("Shuttle operations are authorized."); New_Line;
+   end;
+end Coption;

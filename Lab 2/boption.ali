@@ -1,0 +1,147 @@
+V "GNAT Lib v3.13 "
+M P W=b
+P
+R nnvvnvvvnnnnvvvvvvvvvvvnvnnvnnvnnnvnnnnnvnn
+
+U boption%b		boption.adb		1F203ECB NE SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+W semaphore%s		semaphore.adb		semaphore.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.string_ops_concat_4%s  s-sopco4.adb	s-sopco4.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		19941113100442 2359F9ED
+D a-calend.ads		19971119213804 0E1F0C88
+D a-caldel.ads		19980214231222 6E8ED3D1
+D a-except.ads		20000206195838 287FCF69
+D a-finali.ads		19971119213818 3F32DEEF
+D a-filico.ads		19970305085844 1DECB9AC
+D a-ioexce.ads		19941113132010 175CB67B
+D a-numeri.ads		19941113100348 271ACBE2
+D a-nuflra.ads		19980719023644 23E0C99B
+D a-stream.ads		19971119213846 5F7C277B
+D a-tags.ads		19980811043500 45EF7E4E
+D a-textio.ads		20000206195936 2D24B708
+D a-tifiio.ads		19971119213940 3F07A552
+D a-tifiio.adb		19990729233544 4A2FF8C0
+D a-tiflau.ads		19971119213942 693E19E9
+D a-tiinau.ads		19971119213948 77D9AFB5
+D a-tiinio.ads		19971119213950 284C234E
+D a-tiinio.adb		19991128220656 7EB0AF4F
+D boption.adb		20150417213540 591508A2
+D interfac.ads		19990427103020 0357E00A
+D i-c.ads		19970516080708 30F7C341
+D i-cstrin.ads		19941113132132 462439BF
+D i-cstrea.ads		19991223213434 70A316EF
+D semaphore.ads		20150415003934 46EE4472
+D system.ads		20000127081654 4379A8A7
+D s-exctab.ads		19990919165914 7A25F5F9
+D s-ficobl.ads		19990213013920 0C03FD47
+D s-finimp.ads		19980221074008 1C201C0F
+D s-finroo.ads		19960922055928 166D4EDA
+D s-imgint.ads		19951120153032 21B5CB31
+D s-osinte.ads		20000204233350 6053C40D
+D s-parame.ads		20000204233622 25FE086A
+D s-secsta.ads		19990723212132 60A2A5CD
+D s-soflin.ads		19991222154230 006B24D7
+D s-stache.ads		19990409191030 42B57F2A
+D s-stalib.ads		20000204233632 438B3864
+D s-stoele.ads		19980907210904 131D4539
+D s-stratt.ads		19981014075624 1761725B
+D s-sopco4.ads		19980111022950 5F333A58
+D s-tasinf.ads		19990212001120 0F7BBEC5
+D s-taspri.ads		19990723195314 39586323
+D s-taskin.ads		19990723195358 09146F23
+D s-taprob.ads		19991118193910 1D5668B3
+D s-tpoben.ads		19990822022230 4D0A0C24
+D s-tpobop.ads		19990105020732 4916EA6C
+D s-tasren.ads		19981219083326 0A08BEEB
+D s-tassta.ads		19990729161138 72B0D55C
+D s-unstyp.ads		19990702065612 78AFB91D
+D unchconv.ads		19960730094842 72DC4539
+X 1 ada.ads
+18U9*Ada 19|1r6 1r19 1r33 2r5 2r18 2r32 6r31 7r29
+X 2 a-calend.ads
+40U13*Calendar 19|1r23 2r22
+54U13*Clock 19|64r47 69r40
+59U13*Seconds 19|64r39 69r32
+X 8 a-numeri.ads
+19U13*Numerics 19|1r37 2r36
+X 9 a-nuflra.ads
+53U22*Float_Random 19|1r46 2r45
+57R9*Generator 19|9r13
+61U13*Random 19|47r28 67r28 91r31 96r31 102r31
+X 12 a-textio.ads
+51U13*Text_IO 19|1r10 2r9 6r35 7r33
+169U14*New_Line 19|17r98 60r119 63r84 71r32 73r13 77r99 80r67 92r93 97r77
+. 101r102 110r50
+245U14*Put 19|15r4 16r4 17r4 17r38 17r77 60r13 60r43 60r109 63r13 63r43 70r13
+. 70r43 71r13 72r13 72r43 77r13 77r69 80r13 80r43 92r16 92r53 97r16 97r53
+. 101r16 101r53 110r7
+X 13 a-tifiio.ads
+49G21*Fixed_IO 19|6r43
+71U14 Put 19|70r63
+X 17 a-tiinio.ads
+49G21*Integer_IO 19|7r41
+59U14 Get 19|15r31 16r34
+69U14 Put 19|17r22 17r58 60r31 60r79 63r31 70r31 72r31 77r39 80r31 92r34
+. 97r34 101r34
+X 19 boption.adb
+4U11*Boption
+6U12 Duration_IO 6r68
+7U12 integerIO 7r66
+9R4 randNum 47r35 67r35 91r38 96r38 102r38
+11i4 ShipCount 15m35 17r26 34r34
+12i4 OfficerCount 16m38 17r62 19r45 32r41 33r39
+19w7 OfficerSemaphore 49r13 82r13
+20w7 OfficerMutex 51r13 61r13 75r13 78r13
+22T17 Spaceship 34r48 36b17
+23Y16 Assign 42b17 108r28
+23i23 ShuttleId 43r20
+26T17 LandingOfficer 33r56 87b17
+27Y16 PermissionToLand 65r55 90b20
+27i34 ShuttleId 92r38
+28Y16 CallTheBall 66r55 95b20
+28i29 ShuttleId 97r38
+29Y16 TouchDown 68r55 100b20
+29i27 ShuttleId 101r38
+32a7 LandingOfficerReserve 53r39 54r22 56r22 76r13
+33a7 LandingOfficerArray 65r13 66r13 68r13
+34a7 SpaceshipArray 107r16 108r10
+37o10 initiateLandingSequence 64m13 70r86
+38o10 LandingComplete 69m13 70r68
+39i10 LandingOfficerNumber 55m22 60r83 65r33 66r33 68r33 76r35 77r43
+40i10 ID 43m13 60r35 63r35 65r72 66r67 68r65 70r35 72r35 80r35
+42i25 ShuttleId
+46i14 I
+52L13 OfficerLoop 57r27
+53i20 I 54r44 55r46 56r44
+90i38 ShuttleId
+95i33 ShuttleId
+100i31 ShuttleId
+107i11 I 108r25 108r35
+X 24 semaphore.ads
+1U9*Semaphore 19|1r60 2r59
+3W19*Counting_Semaphore 19|19r26 20r22
+4Y12 Secure 19|49r30 51r26 75r26
+5U16 Release 19|61r26 78r26 82r30
+

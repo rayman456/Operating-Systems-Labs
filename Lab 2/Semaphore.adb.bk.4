@@ -1,0 +1,10 @@
+package Semaphore is
+begin
+   protected type Semaphore(Count : in Integer := 1) is
+      entry Secure;
+      procedure Release;
+      function Count return Integer;
+   private
+         current_count : Integer := Count;
+   end Sempahore;
+end Semaphore;

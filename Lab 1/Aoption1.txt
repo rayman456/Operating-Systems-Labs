@@ -1,0 +1,241 @@
+Shuttle operations are authorized.
+Challenger entering its critical landing section.
+
+CHALLENGER is granted permission to land.
+CHALLENGER call the ball!
+CHALLENGER, permission is granted for final approach.
+Shuttle Challenger docked in           9.778477083 seconds.
+Challenger leavings its critical section.  Obtain new crew and start next mission.
+
+Ranger entering its critical landing section.
+
+RANGER is granted permission to land.
+RANGER call the ball!
+RANGER, permission is granted for final approach.
+Shuttle Ranger docked in           7.675902742 seconds.
+Ranger leavings its critical section.  Obtain new crew and start next mission.
+
+Challenger entering its critical landing section.
+
+CHALLENGER is granted permission to land.
+CHALLENGER call the ball!
+CHALLENGER, permission is granted for final approach.
+Shuttle Challenger docked in           9.906293374 seconds.
+Challenger leavings its critical section.  Obtain new crew and start next mission.
+
+Atlantis entering its critical landing section.
+
+ATLANTIS is granted permission to land.
+ATLANTIS call the ball!
+ATLANTIS, permission is granted for final approach.
+Shuttle Atlantis docked in          14.375461845 seconds.
+Atlantis leavings its critical section.  Obtain new crew and start next mission.
+
+Ranger entering its critical landing section.
+
+RANGER is granted permission to land.
+RANGER call the ball!
+RANGER, permission is granted for final approach.
+Shuttle Ranger docked in          13.297465881 seconds.
+Ranger leavings its critical section.  Obtain new crew and start next mission.
+
+Challenger entering its critical landing section.
+
+CHALLENGER is granted permission to land.
+CHALLENGER call the ball!
+CHALLENGER, permission is granted for final approach.
+Shuttle Challenger docked in          12.798446542 seconds.
+Challenger leavings its critical section.  Obtain new crew and start next mission.
+
+Atlantis entering its critical landing section.
+
+ATLANTIS is granted permission to land.
+ATLANTIS call the ball!
+ATLANTIS, permission is granted for final approach.
+Shuttle Atlantis docked in           9.545325350 seconds.
+Atlantis leavings its critical section.  Obtain new crew and start next mission.
+
+Ranger entering its critical landing section.
+
+RANGER is granted permission to land.
+RANGER call the ball!
+RANGER, permission is granted for final approach.
+Shuttle Ranger docked in          13.559465265 seconds.
+Ranger leavings its critical section.  Obtain new crew and start next mission.
+
+Challenger entering its critical landing section.
+
+CHALLENGER is granted permission to land.
+CHALLENGER call the ball!
+CHALLENGER, permission is granted for final approach.
+Shuttle Challenger docked in          14.231507355 seconds.
+Challenger leavings its critical section.  Obtain new crew and start next mission.
+
+Atlantis entering its critical landing section.
+
+ATLANTIS is granted permission to land.
+ATLANTIS call the ball!
+ATLANTIS, permission is granted for final approach.
+Shuttle Atlantis docked in           6.084177666 seconds.
+Atlantis leavings its critical section.  Obtain new crew and start next mission.
+
+Ranger entering its critical landing section.
+
+RANGER is granted permission to land.
+RANGER call the ball!
+RANGER, permission is granted for final approach.
+Shuttle Ranger docked in           7.453534644 seconds.
+Ranger leavings its critical section.  Obtain new crew and start next mission.
+
+Challenger entering its critical landing section.
+
+CHALLENGER is granted permission to land.
+CHALLENGER call the ball!
+CHALLENGER, permission is granted for final approach.
+Shuttle Challenger docked in           8.756393507 seconds.
+Challenger leavings its critical section.  Obtain new crew and start next mission.
+
+Atlantis entering its critical landing section.
+
+ATLANTIS is granted permission to land.
+ATLANTIS call the ball!
+ATLANTIS, permission is granted for final approach.
+Shuttle Atlantis docked in           7.001827153 seconds.
+Atlantis leavings its critical section.  Obtain new crew and start next mission.
+
+Ranger entering its critical landing section.
+
+RANGER is granted permission to land.
+RANGER call the ball!
+RANGER, permission is granted for final approach.
+Shuttle Ranger docked in           8.705272811 seconds.
+Ranger leavings its critical section.  Obtain new crew and start next mission.
+
+Challenger entering its critical landing section.
+
+CHALLENGER is granted permission to land.
+CHALLENGER call the ball!
+CHALLENGER, permission is granted for final approach.
+Shuttle Challenger docked in          16.626731146 seconds.
+Challenger leavings its critical section.  Obtain new crew and start next mission.
+
+Atlantis entering its critical landing section.
+
+ATLANTIS is granted permission to land.
+ATLANTIS call the ball!
+ATLANTIS, permission is granted for final approach.
+Shuttle Atlantis docked in          11.370637556 seconds.
+Atlantis leavings its critical section.  Obtain new crew and start next mission.
+
+Ranger entering its critical landing section.
+
+RANGER is granted permission to land.
+RANGER call the ball!
+RANGER, permission is granted for final approach.
+Shuttle Ranger docked in          12.310999558 seconds.
+Ranger leavings its critical section.  Obtain new crew and start next mission.
+
+Challenger entering its critical landing section.
+
+CHALLENGER is granted permission to land.
+CHALLENGER call the ball!
+CHALLENGER, permission is granted for final approach.
+Shuttle Challenger docked in           4.725177949 seconds.
+Challenger leavings its critical section.  Obtain new crew and start next mission.
+
+Atlantis entering its critical landing section.
+
+ATLANTIS is granted permission to land.
+ATLANTIS call the ball!
+ATLANTIS, permission is granted for final approach.
+Shuttle Atlantis docked in           9.542474026 seconds.
+Atlantis leavings its critical section.  Obtain new crew and start next mission.
+
+Ranger entering its critical landing section.
+
+RANGER is granted permission to land.
+RANGER call the ball!
+RANGER, permission is granted for final approach.
+Shuttle Ranger docked in           6.862372441 seconds.
+Ranger leavings its critical section.  Obtain new crew and start next mission.
+
+Challenger entering its critical landing section.
+
+CHALLENGER is granted permission to land.
+CHALLENGER call the ball!
+CHALLENGER, permission is granted for final approach.
+Shuttle Challenger docked in           8.704960816 seconds.
+Challenger leavings its critical section.  Obtain new crew and start next mission.
+
+Atlantis entering its critical landing section.
+
+ATLANTIS is granted permission to land.
+ATLANTIS call the ball!
+ATLANTIS, permission is granted for final approach.
+Shuttle Atlantis docked in          14.996534289 seconds.
+Atlantis leavings its critical section.  Obtain new crew and start next mission.
+
+Ranger entering its critical landing section.
+
+RANGER is granted permission to land.
+RANGER call the ball!
+RANGER, permission is granted for final approach.
+Shuttle Ranger docked in          13.712696966 seconds.
+Ranger leavings its critical section.  Obtain new crew and start next mission.
+
+Challenger entering its critical landing section.
+
+CHALLENGER is granted permission to land.
+CHALLENGER call the ball!
+CHALLENGER, permission is granted for final approach.
+Shuttle Challenger docked in          19.741535885 seconds.
+Challenger leavings its critical section.  Obtain new crew and start next mission.
+
+Atlantis entering its critical landing section.
+
+ATLANTIS is granted permission to land.
+ATLANTIS call the ball!
+ATLANTIS, permission is granted for final approach.
+Shuttle Atlantis docked in          10.279354425 seconds.
+Atlantis leavings its critical section.  Obtain new crew and start next mission.
+
+Ranger entering its critical landing section.
+
+RANGER is granted permission to land.
+RANGER call the ball!
+RANGER, permission is granted for final approach.
+Shuttle Ranger docked in          12.441392140 seconds.
+Ranger leavings its critical section.  Obtain new crew and start next mission.
+
+Challenger entering its critical landing section.
+
+CHALLENGER is granted permission to land.
+CHALLENGER call the ball!
+CHALLENGER, permission is granted for final approach.
+Shuttle Challenger docked in          10.221283682 seconds.
+Challenger leavings its critical section.  Obtain new crew and start next mission.
+
+Atlantis entering its critical landing section.
+
+ATLANTIS is granted permission to land.
+ATLANTIS call the ball!
+ATLANTIS, permission is granted for final approach.
+Shuttle Atlantis docked in          12.723429377 seconds.
+Atlantis leavings its critical section.  Obtain new crew and start next mission.
+
+Ranger entering its critical landing section.
+
+RANGER is granted permission to land.
+RANGER call the ball!
+RANGER, permission is granted for final approach.
+Shuttle Ranger docked in          10.251359524 seconds.
+Ranger leavings its critical section.  Obtain new crew and start next mission.
+
+Atlantis entering its critical landing section.
+
+ATLANTIS is granted permission to land.
+ATLANTIS call the ball!
+ATLANTIS, permission is granted for final approach.
+Shuttle Atlantis docked in          13.943596918 seconds.
+Atlantis leavings its critical section.  Obtain new crew and start next mission.
+

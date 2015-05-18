@@ -1,0 +1,99 @@
+with Ada.Text_IO, Ada.Calendar, Ada.Numerics.Float_Random, Monitor2;
+use Ada.Text_IO, Ada.Calendar, Ada.Numerics.Float_Random;
+
+procedure Aoption2 is
+
+   package Duration_IO is new Ada.Text_IO.Fixed_IO(duration);  use Duration_IO;
+   package integerIO is new Ada.Text_IO.Integer_IO(integer); use integerIO;
+
+   RandNum: Generator;
+
+   task type LandingOfficer is
+      entry PermissionToLand (ShuttleId : in Integer);
+      entry CallTheBall (ShuttleId : in Integer);
+      entry TouchDown (ShuttleId: in Integer);
+   end LandingOfficer;
+
+   task body LandingOfficer is
+   begin
+      loop
+         accept PermissionToLand (ShuttleId : in Integer) do
+            delay Duration(Random(RandNum) * 5.0);
+            put("Shuttle #"); put(ShuttleId, 2); put(" is granted permission to land."); new_line;
+         end PermissionToLand;
+
+         accept CallTheBall (ShuttleId : in Integer) do
+            delay Duration(Random(RandNum) * 5.0);
+            put("Shuttle #"); put(ShuttleId, 2); put(" call the ball!"); new_line;
+         end CallTheBall;
+
+         accept TouchDown (ShuttleId : in Integer) do
+            put("Shuttle #"); put(ShuttleId, 2); Put(", permission granted for final approach."); New_Line;
+            delay Duration(Random(RandNum) * 10.0);
+         end Touchdown;
+      end loop;
+   end LandingOfficer;
+
+   ShipCount : Integer;
+   OfficerCount : Integer;
+
+begin
+   Put("Enter # of Ships: "); Get(ShipCount);
+   Put("Enter # of Officers: "); Get(OfficerCount);
+   Put("Creating "); Put(ShipCount, 2); Put(" ships and "); Put(OfficerCount, 2); Put(" officers..."); New_Line;
+   declare
+
+      package OfficerMonitorPackage is new Monitor2(LandingOfficer, OfficerCount); use OfficerMonitorPackage;
+
+      task type Spaceship is
+         entry Assign(ShuttleId : in Integer);
+      end Spaceship;
+
+      SpaceshipArray : array (1..ShipCount) of Spaceship;
+      OfficerArray : aliased Reservable_Item_Array;
+      OfficerMonitor : Resource_Monitor;
+
+      task body Spaceship is
+         initiateLandingSequence: Duration;
+         LandingComplete: Duration;
+         OfficerId : Integer;
+         ID : Integer;
+         OfficerPtr : Item_Ptr;
+      begin
+         accept Assign (ShuttleId : in Integer) do
+            ID  := ShuttleId;
+         end Assign;
+
+         for I in 1..5 loop
+            delay Duration(Random(RandNum) * 15.0);  --Crew performing mission.
+
+            OfficerMonitor.Reserve(OfficerId, OfficerPtr);
+
+            put("Shuttle #"); put(ID, 2); put(" reserved Landing Officer #"); put(OfficerId, 1); put("."); new_line;
+
+            put("Shuttle #"); put(ID, 2); put(" entering its critical section.");  new_line(2);
+            initiateLandingSequence:= seconds(clock);
+            OfficerPtr.PermissionToLand(ID);
+            OfficerPtr.CallTheBall(ID);
+            delay Duration(Random(randNum) * 3.0); -- line up shuttle with mother ship
+            OfficerPtr.TouchDown(ID);
+            landingComplete := seconds(clock);
+            put("Shuttle #"); put(ID, 2); put(" docked in "); put( landingComplete - initiateLandingSequence, 2 );
+            put(" seconds." ); new_line;
+            put("Shuttle #"); put(ID, 2); put(" is leaving its critical section.  Obtain new crew and start next mission.");
+            New_Line(2);
+
+            OfficerMonitor.Release(OfficerId);
+
+            put("Shuttle #"); put(ID, 2); put(" has taken off!"); new_line;
+         end loop;
+      end Spaceship;
+
+   begin
+      OfficerMonitor.Initialize(OfficerArray'Unchecked_Access);
+      for I in SpaceshipArray'Range loop
+         SpaceshipArray(I).Assign(I);
+      end loop;
+      Put("Shuttle operations are authorized."); New_Line;
+   end;
+end Aoption2;

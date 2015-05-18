@@ -1,0 +1,75 @@
+V "GNAT Lib v3.13 "
+M P W=b
+P
+R nnvnnnnvnnnnvvvvnvvvnvvnvnnnnnvnnnnnnnnnvnn
+
+U test%b		test.adb		5D77A08C NE SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W boption%s		boption.adb		boption.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.os_interface%s	s-osinte.ads		s-osinte.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		19941113100442 2359F9ED
+D a-except.ads		20000206195838 287FCF69
+D a-finali.ads		19971119213818 3F32DEEF
+D a-filico.ads		19970305085844 1DECB9AC
+D a-inteio.ads		19941113100258 767F630A
+D a-interr.ads		19980627001128 6619C24E
+D a-ioexce.ads		19941113132010 175CB67B
+D a-stream.ads		19971119213846 5F7C277B
+D a-tags.ads		19980811043500 45EF7E4E
+D a-textio.ads		20000206195936 2D24B708
+D a-tiinio.ads		19971119213950 284C234E
+D boption.ads		20150429023146 248E37EA
+D interfac.ads		19990427103020 0357E00A
+D i-c.ads		19970516080708 30F7C341
+D i-cstrin.ads		19941113132132 462439BF
+D i-cstrea.ads		19991223213434 70A316EF
+D system.ads		20000127081654 4379A8A7
+D s-exctab.ads		19990919165914 7A25F5F9
+D s-ficobl.ads		19990213013920 0C03FD47
+D s-finimp.ads		19980221074008 1C201C0F
+D s-finroo.ads		19960922055928 166D4EDA
+D s-intman.ads		19980914200336 6BEEF880
+D s-interr.ads		20000204233614 0D5C7D18
+D s-osinte.ads		20000204233350 6053C40D
+D s-parame.ads		20000204233622 25FE086A
+D s-secsta.ads		19990723212132 60A2A5CD
+D s-soflin.ads		19991222154230 006B24D7
+D s-stache.ads		19990409191030 42B57F2A
+D s-stalib.ads		20000204233632 438B3864
+D s-stoele.ads		19980907210904 131D4539
+D s-stratt.ads		19981014075624 1761725B
+D s-tasinf.ads		19990212001120 0F7BBEC5
+D s-taspri.ads		19990723195314 39586323
+D s-taskin.ads		19990723195358 09146F23
+D s-taprob.ads		19991118193910 1D5668B3
+D s-tpoben.ads		19990822022230 4D0A0C24
+D s-unstyp.ads		19990702065612 78AFB91D
+D test.adb		20150429024040 6FD53061
+D unchconv.ads		19960730094842 72DC4539
+X 1 ada.ads
+18U9*Ada 38|1r36 2r14
+X 5 a-inteio.ads
+20U13*Integer_Text_IO 38|1r40 2r18
+X 11 a-tiinio.ads
+59U14*Get 38|13r4
+X 12 boption.ads
+4U9*Boption 38|1r27 2r5
+6W19*Device_Interface 38|7r18
+X 17 system.ads
+41U9*System 38|1r6 7r35
+X 24 s-osinte.ads
+49U16*OS_Interface 38|1r13 7r42
+110N4*SIGTERM 38|7r55
+X 38 test.adb
+5U11*Test
+7w4 testHandler
+9i4 testint 13m8 15m4 15r21
+

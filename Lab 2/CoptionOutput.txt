@@ -1,0 +1,551 @@
+Shuttle operations are authorized.
+CHALLENGER reserved Landing Officer #1.
+CHALLENGER entering its critical section.
+
+SERENITY reserved Landing Officer #2.
+SERENITY entering its critical section.
+
+CHALLENGER is granted permission to land.
+SERENITY is granted permission to land.
+SERENITY call the ball!
+CHALLENGER call the ball!
+CHALLENGER , permission granted for final approach.
+CHALLENGER docked in  7.269487770 seconds.
+CHALLENGER is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+CHALLENGER has taken off!
+XWING reserved Landing Officer #1.
+XWING entering its critical section.
+
+SERENITY , permission granted for final approach.
+XWING is granted permission to land.
+SERENITY docked in 13.631136717 seconds.
+SERENITY is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+SERENITY has taken off!
+ATLANTIS reserved Landing Officer #2.
+ATLANTIS entering its critical section.
+
+XWING call the ball!
+ATLANTIS is granted permission to land.
+XWING , permission granted for final approach.
+ATLANTIS call the ball!
+ATLANTIS , permission granted for final approach.
+XWING docked in 18.819362520 seconds.
+XWING is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+XWING has taken off!
+HYPERION reserved Landing Officer #1.
+HYPERION entering its critical section.
+
+ATLANTIS docked in 15.126599237 seconds.
+ATLANTIS is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+ATLANTIS has taken off!
+TITAN reserved Landing Officer #2.
+TITAN entering its critical section.
+
+TITAN is granted permission to land.
+HYPERION is granted permission to land.
+TITAN call the ball!
+HYPERION call the ball!
+TITAN , permission granted for final approach.
+HYPERION , permission granted for final approach.
+TITAN docked in  7.751057135 seconds.
+TITAN is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+TITAN has taken off!
+NEMESIS reserved Landing Officer #2.
+NEMESIS entering its critical section.
+
+NEMESIS is granted permission to land.
+HYPERION docked in 13.583657966 seconds.
+HYPERION is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+HYPERION has taken off!
+CHALLENGER reserved Landing Officer #1.
+CHALLENGER entering its critical section.
+
+NEMESIS call the ball!
+CHALLENGER is granted permission to land.
+CHALLENGER call the ball!
+NEMESIS , permission granted for final approach.
+CHALLENGER , permission granted for final approach.
+CHALLENGER docked in  7.392094791 seconds.
+CHALLENGER is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+CHALLENGER has taken off!
+ENTERPRISE reserved Landing Officer #1.
+ENTERPRISE entering its critical section.
+
+NEMESIS docked in 12.481329256 seconds.
+NEMESIS is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+NEMESIS has taken off!
+RANGER reserved Landing Officer #2.
+RANGER entering its critical section.
+
+RANGER is granted permission to land.
+ENTERPRISE is granted permission to land.
+RANGER call the ball!
+ENTERPRISE call the ball!
+RANGER , permission granted for final approach.
+ENTERPRISE , permission granted for final approach.
+RANGER docked in  5.177509366 seconds.
+RANGER is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+RANGER has taken off!
+ELYSIUM reserved Landing Officer #2.
+ELYSIUM entering its critical section.
+
+ENTERPRISE docked in  9.691939055 seconds.
+ENTERPRISE is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+ENTERPRISE has taken off!
+SERENITY reserved Landing Officer #1.
+SERENITY entering its critical section.
+
+SERENITY is granted permission to land.
+ELYSIUM is granted permission to land.
+SERENITY call the ball!
+ELYSIUM call the ball!
+SERENITY , permission granted for final approach.
+SERENITY docked in  5.214515574 seconds.
+SERENITY is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+SERENITY has taken off!
+XWING reserved Landing Officer #1.
+XWING entering its critical section.
+
+XWING is granted permission to land.
+ELYSIUM , permission granted for final approach.
+XWING call the ball!
+XWING , permission granted for final approach.
+XWING docked in  4.941761156 seconds.
+XWING is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+XWING has taken off!
+ATLANTIS reserved Landing Officer #1.
+ATLANTIS entering its critical section.
+
+ATLANTIS is granted permission to land.
+ELYSIUM docked in 15.714156866 seconds.
+ELYSIUM is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+ELYSIUM has taken off!
+TITAN reserved Landing Officer #2.
+TITAN entering its critical section.
+
+ATLANTIS call the ball!
+ATLANTIS , permission granted for final approach.
+ATLANTIS docked in  6.176141762 seconds.
+ATLANTIS is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+ATLANTIS has taken off!
+NEMESIS reserved Landing Officer #1.
+NEMESIS entering its critical section.
+
+TITAN is granted permission to land.
+NEMESIS is granted permission to land.
+TITAN call the ball!
+NEMESIS call the ball!
+TITAN , permission granted for final approach.
+NEMESIS , permission granted for final approach.
+TITAN docked in 15.542715423 seconds.
+TITAN is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+TITAN has taken off!
+CHALLENGER reserved Landing Officer #2.
+CHALLENGER entering its critical section.
+
+CHALLENGER is granted permission to land.
+CHALLENGER call the ball!
+NEMESIS docked in 13.818226295 seconds.
+NEMESIS is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+NEMESIS has taken off!
+HYPERION reserved Landing Officer #1.
+HYPERION entering its critical section.
+
+CHALLENGER , permission granted for final approach.
+HYPERION is granted permission to land.
+HYPERION call the ball!
+HYPERION , permission granted for final approach.
+CHALLENGER docked in 11.348020933 seconds.
+CHALLENGER is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+CHALLENGER has taken off!
+RANGER reserved Landing Officer #2.
+RANGER entering its critical section.
+
+RANGER is granted permission to land.
+HYPERION docked in 13.182400609 seconds.
+HYPERION is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+HYPERION has taken off!
+ENTERPRISE reserved Landing Officer #1.
+ENTERPRISE entering its critical section.
+
+RANGER call the ball!
+ENTERPRISE is granted permission to land.
+RANGER , permission granted for final approach.
+RANGER docked in  7.758274090 seconds.
+RANGER is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+RANGER has taken off!
+SERENITY reserved Landing Officer #2.
+SERENITY entering its critical section.
+
+ENTERPRISE call the ball!
+SERENITY is granted permission to land.
+ENTERPRISE , permission granted for final approach.
+SERENITY call the ball!
+ENTERPRISE docked in  9.729334094 seconds.
+ENTERPRISE is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+ENTERPRISE has taken off!
+XWING reserved Landing Officer #1.
+XWING entering its critical section.
+
+SERENITY , permission granted for final approach.
+XWING is granted permission to land.
+XWING call the ball!
+XWING , permission granted for final approach.
+SERENITY docked in 15.064369632 seconds.
+SERENITY is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+SERENITY has taken off!
+ATLANTIS reserved Landing Officer #2.
+ATLANTIS entering its critical section.
+
+ATLANTIS is granted permission to land.
+ATLANTIS call the ball!
+XWING docked in 16.199517337 seconds.
+XWING is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+XWING has taken off!
+ELYSIUM reserved Landing Officer #1.
+ELYSIUM entering its critical section.
+
+ATLANTIS , permission granted for final approach.
+ELYSIUM is granted permission to land.
+ELYSIUM call the ball!
+ELYSIUM , permission granted for final approach.
+ELYSIUM docked in 11.451285050 seconds.
+ELYSIUM is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+ELYSIUM has taken off!
+TITAN reserved Landing Officer #1.
+TITAN entering its critical section.
+
+ATLANTIS docked in 17.926775433 seconds.
+ATLANTIS is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+ATLANTIS has taken off!
+NEMESIS reserved Landing Officer #2.
+NEMESIS entering its critical section.
+
+TITAN is granted permission to land.
+NEMESIS is granted permission to land.
+TITAN call the ball!
+TITAN , permission granted for final approach.
+NEMESIS call the ball!
+TITAN docked in  7.484211148 seconds.
+TITAN is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+TITAN has taken off!
+CHALLENGER reserved Landing Officer #1.
+CHALLENGER entering its critical section.
+
+CHALLENGER is granted permission to land.
+NEMESIS , permission granted for final approach.
+CHALLENGER call the ball!
+NEMESIS docked in 14.663361406 seconds.
+NEMESIS is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+NEMESIS has taken off!
+HYPERION reserved Landing Officer #2.
+HYPERION entering its critical section.
+
+CHALLENGER , permission granted for final approach.
+HYPERION is granted permission to land.
+CHALLENGER docked in 12.078375709 seconds.
+CHALLENGER is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+CHALLENGER has taken off!
+RANGER reserved Landing Officer #1.
+RANGER entering its critical section.
+
+HYPERION call the ball!
+RANGER is granted permission to land.
+HYPERION , permission granted for final approach.
+RANGER call the ball!
+RANGER , permission granted for final approach.
+HYPERION docked in 14.968628936 seconds.
+HYPERION is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+HYPERION has taken off!
+ENTERPRISE reserved Landing Officer #2.
+ENTERPRISE entering its critical section.
+
+RANGER docked in 12.347403925 seconds.
+RANGER is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+RANGER has taken off!
+XWING reserved Landing Officer #1.
+XWING entering its critical section.
+
+ENTERPRISE is granted permission to land.
+ENTERPRISE call the ball!
+XWING is granted permission to land.
+ENTERPRISE , permission granted for final approach.
+XWING call the ball!
+XWING , permission granted for final approach.
+XWING docked in 10.201195482 seconds.
+XWING is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+XWING has taken off!
+SERENITY reserved Landing Officer #1.
+SERENITY entering its critical section.
+
+ENTERPRISE docked in 12.469387826 seconds.
+ENTERPRISE is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+ENTERPRISE has taken off!
+ELYSIUM reserved Landing Officer #2.
+ELYSIUM entering its critical section.
+
+SERENITY is granted permission to land.
+ELYSIUM is granted permission to land.
+ELYSIUM call the ball!
+SERENITY call the ball!
+SERENITY , permission granted for final approach.
+ELYSIUM , permission granted for final approach.
+SERENITY docked in 14.977575841 seconds.
+SERENITY is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+SERENITY has taken off!
+ATLANTIS reserved Landing Officer #1.
+ATLANTIS entering its critical section.
+
+ELYSIUM docked in 17.525817848 seconds.
+ELYSIUM is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+ELYSIUM has taken off!
+TITAN reserved Landing Officer #2.
+TITAN entering its critical section.
+
+ATLANTIS is granted permission to land.
+TITAN is granted permission to land.
+ATLANTIS call the ball!
+ATLANTIS , permission granted for final approach.
+TITAN call the ball!
+TITAN , permission granted for final approach.
+TITAN docked in 12.106255732 seconds.
+TITAN is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+TITAN has taken off!
+NEMESIS reserved Landing Officer #2.
+NEMESIS entering its critical section.
+
+ATLANTIS docked in 18.022548434 seconds.
+ATLANTIS is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+ATLANTIS has taken off!
+CHALLENGER reserved Landing Officer #1.
+CHALLENGER entering its critical section.
+
+NEMESIS is granted permission to land.
+CHALLENGER is granted permission to land.
+NEMESIS call the ball!
+NEMESIS , permission granted for final approach.
+CHALLENGER call the ball!
+CHALLENGER , permission granted for final approach.
+CHALLENGER docked in 11.392522040 seconds.
+CHALLENGER is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+CHALLENGER has taken off!
+RANGER reserved Landing Officer #1.
+RANGER entering its critical section.
+
+NEMESIS docked in 15.251301174 seconds.
+NEMESIS is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+NEMESIS has taken off!
+HYPERION reserved Landing Officer #2.
+HYPERION entering its critical section.
+
+RANGER is granted permission to land.
+RANGER call the ball!
+RANGER , permission granted for final approach.
+HYPERION is granted permission to land.
+HYPERION call the ball!
+RANGER docked in  7.921982272 seconds.
+RANGER is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+RANGER has taken off!
+ENTERPRISE reserved Landing Officer #1.
+ENTERPRISE entering its critical section.
+
+HYPERION , permission granted for final approach.
+ENTERPRISE is granted permission to land.
+HYPERION docked in  9.398570754 seconds.
+HYPERION is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+HYPERION has taken off!
+XWING reserved Landing Officer #2.
+XWING entering its critical section.
+
+ENTERPRISE call the ball!
+ENTERPRISE , permission granted for final approach.
+XWING is granted permission to land.
+XWING call the ball!
+ENTERPRISE docked in  7.901085789 seconds.
+ENTERPRISE is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+ENTERPRISE has taken off!
+ELYSIUM reserved Landing Officer #1.
+ELYSIUM entering its critical section.
+
+XWING , permission granted for final approach.
+ELYSIUM is granted permission to land.
+ELYSIUM call the ball!
+XWING docked in 14.702122594 seconds.
+XWING is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+XWING has taken off!
+SERENITY reserved Landing Officer #2.
+SERENITY entering its critical section.
+
+ELYSIUM , permission granted for final approach.
+SERENITY is granted permission to land.
+SERENITY call the ball!
+SERENITY , permission granted for final approach.
+ELYSIUM docked in 15.100527163 seconds.
+ELYSIUM is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+ELYSIUM has taken off!
+TITAN reserved Landing Officer #1.
+TITAN entering its critical section.
+
+TITAN is granted permission to land.
+SERENITY docked in 10.490380354 seconds.
+SERENITY is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+SERENITY has taken off!
+ATLANTIS reserved Landing Officer #2.
+ATLANTIS entering its critical section.
+
+TITAN call the ball!
+ATLANTIS is granted permission to land.
+TITAN , permission granted for final approach.
+ATLANTIS call the ball!
+ATLANTIS , permission granted for final approach.
+TITAN docked in 13.027407080 seconds.
+TITAN is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+TITAN has taken off!
+NEMESIS reserved Landing Officer #1.
+NEMESIS entering its critical section.
+
+NEMESIS is granted permission to land.
+NEMESIS call the ball!
+NEMESIS , permission granted for final approach.
+ATLANTIS docked in 12.768306578 seconds.
+ATLANTIS is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+ATLANTIS has taken off!
+RANGER reserved Landing Officer #2.
+RANGER entering its critical section.
+
+RANGER is granted permission to land.
+RANGER call the ball!
+RANGER , permission granted for final approach.
+NEMESIS docked in 11.094219423 seconds.
+NEMESIS is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+NEMESIS has taken off!
+HYPERION reserved Landing Officer #1.
+HYPERION entering its critical section.
+
+HYPERION is granted permission to land.
+HYPERION call the ball!
+RANGER docked in 12.541468601 seconds.
+RANGER is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+RANGER has taken off!
+ENTERPRISE reserved Landing Officer #2.
+ENTERPRISE entering its critical section.
+
+HYPERION , permission granted for final approach.
+ENTERPRISE is granted permission to land.
+HYPERION docked in  8.407638149 seconds.
+HYPERION is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+HYPERION has taken off!
+ELYSIUM reserved Landing Officer #1.
+ELYSIUM entering its critical section.
+
+ENTERPRISE call the ball!
+ENTERPRISE , permission granted for final approach.
+ELYSIUM is granted permission to land.
+ELYSIUM call the ball!
+ELYSIUM , permission granted for final approach.
+ENTERPRISE docked in 11.788537450 seconds.
+ENTERPRISE is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #2 is now free for use.
+ENTERPRISE has taken off!
+ELYSIUM docked in 15.173150148 seconds.
+ELYSIUM is leaving its critical section.  Obtain new crew and start next mission.
+
+Landing Officer #1 is now free for use.
+ELYSIUM has taken off!

@@ -1,0 +1,95 @@
+V "GNAT Lib v3.13 "
+M P W=b
+P
+R nnvnnvvvnnnnvvvvvvvvvnnnnnnvnnvnnnnnnnnnnnn
+
+U poissontest%b		poissontest.adb		67EBB3BB NE SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		19941113100442 2359F9ED
+D a-calend.ads		19971119213804 0E1F0C88
+D a-caldel.ads		19980214231222 6E8ED3D1
+D a-except.ads		20000206195838 287FCF69
+D a-finali.ads		19971119213818 3F32DEEF
+D a-filico.ads		19970305085844 1DECB9AC
+D a-flteio.ads		19970318122320 5AF53864
+D a-ioexce.ads		19941113132010 175CB67B
+D a-numeri.ads		19941113100348 271ACBE2
+D a-nuelfu.ads		19991112205358 508A7580
+D a-nuflra.ads		19980719023644 23E0C99B
+D a-ngelfu.ads		19941113100336 21EF4847
+D a-stream.ads		19971119213846 5F7C277B
+D a-tags.ads		19980811043500 45EF7E4E
+D a-textio.ads		20000206195936 2D24B708
+D a-tifiio.ads		19971119213940 3F07A552
+D a-tifiio.adb		19990729233544 4A2FF8C0
+D a-tiflau.ads		19971119213942 693E19E9
+D a-tiflio.ads		19971119213944 496A5831
+D interfac.ads		19990427103020 0357E00A
+D i-cstrea.ads		19991223213434 70A316EF
+D poissontest.adb	20150420025546 6D4F8C44
+D system.ads		20000127081654 4379A8A7
+D s-exctab.ads		19990919165914 7A25F5F9
+D s-ficobl.ads		19990213013920 0C03FD47
+D s-finimp.ads		19980221074008 1C201C0F
+D s-finroo.ads		19960922055928 166D4EDA
+D s-parame.ads		20000204233622 25FE086A
+D s-secsta.ads		19990723212132 60A2A5CD
+D s-soflin.ads		19991222154230 006B24D7
+D s-stache.ads		19990409191030 42B57F2A
+D s-stalib.ads		20000204233632 438B3864
+D s-stoele.ads		19980907210904 131D4539
+D s-stratt.ads		19981014075624 1761725B
+D s-unstyp.ads		19990702065612 78AFB91D
+D unchconv.ads		19960730094842 72DC4539
+X 1 ada.ads
+18U9*Ada 22|1r6 1r41 1r68 1r87 1r100 2r5 2r40 2r67 2r86 2r99 6r31
+X 2 a-calend.ads
+40U13*Calendar 22|1r104 2r103
+54U13*Clock 22|35r19
+59U13*Seconds 22|35r11
+X 7 a-flteio.ads
+22U13*Float_Text_IO 22|1r72 2r71
+X 9 a-numeri.ads
+19U13*Numerics 22|1r10 1r45 2r9 2r44
+X 10 a-nuelfu.ads
+20U22*Elementary_Functions 22|1r19 2r18
+X 11 a-nuflra.ads
+53U22*Float_Random 22|1r54 2r53
+57R9*Generator 22|8r16 12r48
+61U13*Random 22|15r21
+X 12 a-ngelfu.ads
+25U13*Log 22|19r25
+X 15 a-textio.ads
+51U13*Text_IO 22|1r91 2r90 6r35
+169U14*New_Line 22|31r58 35r28
+245U14*Put 22|25r4 31r4
+X 16 a-tifiio.ads
+49G21*Fixed_IO 22|6r43
+71U14 Put 22|35r7
+X 19 a-tiflio.ads
+60U14*Get 22|25r33
+71U14*Put 22|31r22
+X 22 poissontest.adb
+4U11*PoissonTest
+6U12 Duration_IO 6r68
+8R4 RandomNum 28r48
+9f4 Temp 25m37 28r42
+10f4 Average 28m7 28r18 31r26
+12U13 RandomPoisson 28r28
+12f28 Mean 19r50
+12R42 Gen 15r28
+13f7 UniformNum 15m7 16r10 19r29
+27i8 I
+33i8 I
+

@@ -1,0 +1,28 @@
+generic
+   Max_Resource : in Positive;
+package OfficerMonitor is
+
+   task type LandingOfficer is
+      entry PermissionToLand (ShuttleId : in Integer);
+      entry CallTheBall (ShuttleId : in Integer);
+      entry TouchDown (ShuttleId: in Integer);
+   end LandingOfficer;
+
+   subtype LandingOfficerRange is Positive range 1..Max_Resource;
+   --type ReservableOfficer is
+   --record
+      --Reserved : Boolean := False;
+      --Officer : aliased LandingOfficer;
+   --end record;
+   type LandingOfficerArray is array (LandingOfficerRange) of aliased LandingOfficer;
+   type OfficerPtr is access all LandingOfficer;
+
+   protected type LandingOfficerMonitor is
+      entry  Reserve (Id : out Integer; OfficerAccess : out OfficerPtr);
+      procedure Release (Id : in Integer);
+      function Available return Boolean;
+   private
+      OfficerArray : LandingOfficerArray;
+   end LandingOfficerMonitor;
+
+end OfficerMonitor;

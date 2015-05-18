@@ -1,0 +1,14 @@
+package AsteroidPackage is
+
+   type Asteroid is private;
+
+   procedure Construct(Ast : in Asteroid; );
+
+private
+
+   type Asteroid is
+   record
+      Size : Integer;
+
+
+end Asteroid;

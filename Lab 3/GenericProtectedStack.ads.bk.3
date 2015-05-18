@@ -1,0 +1,19 @@
+generic
+   type Item is private;
+   Size : in Positive;
+package GenericProtectedStack is
+
+      subtype Item_Range is Positive range 1..Size;
+      type Item_Array is array (Item_Range) of Item;
+
+      protected type ProtectedStack is
+         procedure Push(InputItem : in Item);
+         procedure Pop(OutputItem : out Item);
+         function IsFull return Boolean;
+         function IsEmpty return Boolean;
+      private
+         Stack : Item_Array;
+         Size : Integer := 0;
+      end ProtectedStack;
+
+end GenericProtectedStack;

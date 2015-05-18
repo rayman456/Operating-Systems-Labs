@@ -1,0 +1,270 @@
+with RandomFunctions, AsteroidPackage, Ada.Calendar, Ada.Numerics.Float_Random, Ada.Integer_Text_IO, Ada.Text_IO, Ada.Unchecked_Deallocation, GenericProtectedStack;
+use RandomFunctions, AsteroidPackage, Ada.Calendar, Ada.Numerics.Float_Random, Ada.Integer_Text_IO, Ada.Text_IO;
+
+procedure Coption is
+
+   --Declarations/Functions
+   procedure Free is new Ada.Unchecked_Deallocation(Asteroid, Asteroid_Ptr);
+   package AsteroidStackPackage is new GenericProtectedStack(Asteroid_Ptr, 15); use AsteroidStackPackage;
+   type DefensiveProbeType is (Torpedos, Phasers);
+
+   function TimeToDestroy(Size : in Integer; ProbeType : in DefensiveProbeType) return Duration is
+   begin
+      if ProbeType = Torpedos then
+         if Size = 11 then
+            return Duration(6.0);
+         elsif Size = 9 then
+            return Duration(3.0);
+         elsif Size = 6 then
+            return Duration(3.0);
+         end if;
+      elsif ProbeType = Phasers then
+         if Size = 11 then
+            return Duration(6.0);
+         elsif Size = 9 then
+            return Duration(4.0);
+         elsif Size = 6 then
+            return Duration(2.0);
+         end if;
+      end if;
+      return Duration(0.0);
+   end TimeToDestroy;
+
+
+   --Task Types
+   type TFC;
+   type DefensiveProbeArray;
+   type TFC_Ptr is access all TFC;
+   type DPA_Ptr is access all DefensiveProbeArray;
+
+   task type TFC is
+      entry Initialize(ID : in Integer; TFC_ID : in TFC_Ptr; DPA : in DPA_Ptr);
+      entry NotifyOfAsteroid(NewTarget : in out Asteroid_Ptr);
+      entry RequestTarget(Target : out Asteroid_Ptr; Available : out Boolean);
+      entry NotifyOfTargetDestroyed;
+      entry NotifyOfDeath(DPType : in DefensiveProbeType);
+   end TFC;
+
+
+   task type ScoutProbe is
+      entry Initialize(TFCParent : in TFC_Ptr);
+   end ScoutProbe;
+
+   task type DefensiveProbe is
+      entry Initialize(TFCParent : in TFC_Ptr; DPType : in DefensiveProbeType; ProbeID : in Integer);
+   end DefensiveProbe;
+
+   type DPL is array (Integer range <>) of DefensiveProbe;
+
+   type DefensiveProbeArray (NumProbes : Integer := 1) is
+   record
+      Probes : DPL (1..NumProbes);
+   end record;
+
+
+   --Task Bodies
+   task body TFC is
+      --ID for tracking simulations
+      SimID : Integer;
+
+      --Data Structures
+      AstStack : ProtectedStack;
+      Scout : ScoutProbe;
+      TorpedoOne : DefensiveProbe;
+      TorpedoTwo : DefensiveProbe;
+      PhaserProbes : DPA_Ptr;
+
+      --Mission Statistics
+      TorpedoDeaths : Integer := 0;
+      PhaserDeaths : Integer := 0;
+      Destroyed : Integer := 0;
+      Damage : Integer := 0;
+      MissionComplete : Boolean := False;
+   begin
+
+      accept Initialize(ID : in Integer; TFC_ID : in TFC_Ptr; DPA : in DPA_Ptr) do
+         SimID := ID;
+         PhaserProbes := DPA;
+         Scout.Initialize(TFC_ID);
+         TorpedoOne.Initialize(TFC_ID, Torpedos, 1);
+         TorpedoTwo.Initialize(TFC_ID, Torpedos, 2);
+         for I in PhaserProbes.Probes'range loop
+            PhaserProbes.Probes(I).Initialize(TFC_ID, Phasers, I+2);
+         end loop;
+      end Initialize;
+
+      while not MissionComplete loop
+         select
+            --Scout Probe Report New Asteroid
+            accept NotifyOfAsteroid(NewTarget : in out Asteroid_Ptr) do
+               --put_line("Found new asteroid:");
+               --ToString(NewTarget);
+               declare
+                  Success : Boolean;
+               begin
+                  AstStack.Push(NewTarget, Success);
+                  if not Success then
+                     Damage := Damage + 1;
+                     --("Destroyed Asteroid #"); put(GetID(NewTarget), 2); put(" (Shields Hit)."); new_line;
+                     Free(NewTarget);
+                     Destroyed := Destroyed + 1;
+                  end if;
+               end;
+            end NotifyOfAsteroid;
+         or
+            --Defensive Probe Request Target
+            accept RequestTarget(Target : out Asteroid_Ptr; Available : out Boolean) do
+               declare
+                  TempPtr : Asteroid_Ptr;
+                  Success : Boolean;
+               begin
+                  GetTargetLoop:
+                  loop
+                     AstStack.Pop(TempPtr, Success);
+                     if Success then
+                        if HasImpacted(TempPtr) then
+                           --put("Destroyed Asteroid #"); put(GetID(TempPtr), 2); put(" (Shields Hit)."); new_line;
+                           Damage := Damage + 1;
+                           Free(TempPtr);
+                           Destroyed := Destroyed + 1 ;
+                        else
+                           Target := TempPtr;
+                           Available := True;
+                           exit GetTargetLoop;
+                        end if;
+                     else
+                        Available := False;
+                        exit GetTargetLoop;
+                     end if;
+                  end loop GetTargetLoop;
+               end;
+            end RequestTarget;
+         or
+            --Defensive Probe Report Target Destroyed
+            accept NotifyOfTargetDestroyed do
+               Destroyed := Destroyed + 1;
+            end NotifyOfTargetDestroyed;
+         or
+            --Defensive Probe Report Death
+            accept NotifyOfDeath(DPType : in DefensiveProbeType) do
+               if DPType = Torpedos then
+                  TorpedoDeaths := TorpedoDeaths + 1;
+               elsif DPType = Phasers then
+                  PhaserDeaths := PhaserDeaths + 1;
+               end if;
+               Destroyed := Destroyed + 1;
+            end NotifyOfDeath;
+         end select;
+
+         --Check for mission end
+         if Destroyed >= 55 then
+            MissionComplete := True;
+            New_Line;
+            Put("-- Mission Stats for Simulation #"); Put(SimID, 2); Put(" --"); New_Line;
+            Put("Status: ");                          Put("SUCCESS");            New_Line;
+            Put("Total # of Phaser Probes: ");        Put(PhaserProbes.Probes'Length, 2); New_Line;
+            Put("Phaser Probes Destroyed: ");         Put(PhaserDeaths, 2);      New_Line;
+            Put("Total # of Torpedo Probes:  2");                                New_Line;
+            Put("Torpedo Probes Destroyed: ");        Put(TorpedoDeaths, 2);     New_Line;
+            Put("Total # of Asteroids Destroyed: ");  Put(Destroyed, 2);         New_Line;
+            Put("Shield Damage Taken: ");             Put(Damage, 2);            New_line(2);
+         elsif Damage >= 5 then
+            MissionComplete := True;
+            New_Line;
+            Put("-- Mission Stats for Simulation #"); Put(SimID, 2); Put(" --"); New_Line;
+            Put("Status: ");                          Put("FAILURE");            New_Line;
+            Put("Total # of Phaser Probes: ");        Put(PhaserProbes.Probes'Length, 2); New_Line;
+            Put("Phaser Probes Destroyed: ");         Put(PhaserDeaths, 2);      New_Line;
+            Put("Total # of Torpedo Probes:  2");                                New_Line;
+            Put("Torpedo Probes Destroyed: ");        Put(TorpedoDeaths, 2);     New_Line;
+            Put("Total # of Asteroids Destroyed: ");  Put(Destroyed, 2);         New_Line;
+            Put("Shield Damage Taken: ");             Put(Damage, 2);            New_line(2);
+         end if;
+      end loop;
+   end TFC;
+
+   task body ScoutProbe is
+      --Data
+      RandomNum : Generator;
+      Parent : TFC_Ptr;
+
+      --Temp storage variables
+      Ast : Asteroid_Ptr;
+      AstNumber : Integer := 1;
+
+      --Control variable
+      Recalled : Boolean := False;
+   begin
+
+      accept Initialize(TFCParent :  in TFC_Ptr) do
+         Parent := TFCParent;
+         --Seed generator for random output
+         Reset(RandomNum, Integer(seconds(clock)));
+      end Initialize;
+
+      while not Recalled loop
+         delay Duration(RandomPoisson(4.0, RandomNum));
+         Ast := new Asteroid;
+         Construct(Ast, AstNumber, RandomSize(RandomNum), Duration(RandomImpactTime(RandomNum)), Seconds(Clock));
+         AstNumber := AstNumber + 1;
+         Parent.NotifyOfAsteroid(Ast);
+      end loop;
+   end ScoutProbe;
+
+   task body DefensiveProbe is
+      --Data
+      Parent : TFC_Ptr;
+      ProbeType : DefensiveProbeType;
+      ID : Integer;
+
+      --Temp storage variables
+      Target : Asteroid_Ptr;
+      Available : Boolean;
+
+      --Control variable
+      SelfDestruct : Boolean := False;
+   begin
+      accept Initialize(TFCParent : in TFC_Ptr; DPType : in DefensiveProbeType; ProbeID : in Integer) do
+         Parent := TFCParent;
+         ProbeType := DPType;
+         ID  := ProbeID;
+      end Initialize;
+
+      while not SelfDestruct loop
+         Parent.RequestTarget(Target, Available);
+         if Available then
+            if TimeToDestroy(GetSize(Target), ProbeType) <= RemainingTimeToImpact(Target) then
+               --Destroy
+               delay TimeToDestroy(GetSize(Target), ProbeType);
+               --put("Destroyed Asteroid #"); put(GetID(Target), 2); put(" (D-Probe #"); put(ID, 2); put_line(" - Destroyed)."); new_line;
+               Free(Target);
+               Parent.NotifyOfTargetDestroyed;
+
+               if ProbeType = Torpedos then
+                  delay 3.0;
+               else
+                  delay 2.0;
+               end if;
+            else
+               --Self Destruct
+               delay RemainingTimeToImpact(Target);
+               --put("Destroyed Asteroid #"); put(GetID(Target), 2); put(" (D-Probe #"); put(ID, 2); put_line(" - Self Destruct)."); new_line;
+               Free(Target);
+               Parent.NotifyOfDeath(ProbeType);
+               SelfDestruct := True;
+            end if;
+         else
+            delay 0.5;
+         end if;
+      end loop;
+   end DefensiveProbe;
+
+   Simulation : aliased TFC;
+   Temp : DPA_Ptr;
+   NumProbes: Integer;
+begin
+   put("Enter # of Phaser Probes: "); get(NumProbes);
+   Temp := new DefensiveProbeArray(NumProbes);
+   Simulation.Initialize(1, Simulation'access, Temp);
+   Put_Line("Running Simulation...");
+end Coption;

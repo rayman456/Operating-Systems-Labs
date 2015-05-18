@@ -1,0 +1,18 @@
+package body AsteroidPackage is
+
+   procedure Construct(Ast : in Asteroid; SizeInput : in Integer; ImpactTime : in Float) is
+   begin
+      Ast.Size := SizeInput;
+      Ast.TimeToImpact := ImpactTime;
+   end Construct;
+
+   function IsDestroyed(Ast : in Asteroid) return Boolean is
+   begin
+      return
+
+   procedure Damage(Ast : in Asteroid; Dmg : in Integer) is
+   begin
+      Ast.Size := Ast.Size - Dmg;
+   end Damage;
+
+end AsteroidPackage;

@@ -1,0 +1,29 @@
+with Ada.Text_IO, Ada.Calendar;
+use Ada.Text_IO, Ada.Calendar;
+
+procedure Test is
+
+   package DurationIO is new Ada.Text_IO.Fixed_IO(Duration);
+   use DurationIO;
+
+begin
+
+   Put(Seconds(Clock));
+   new_line;
+
+   loop
+      delay 10.0;
+      Put(Seconds(Clock));
+      Put(" blah blah blah blah.");
+      declare
+         Waisttime : Integer := 5;
+      begin
+         WaistTime := Waisttime + 6;
+         WaistTime := Waisttime - 7;
+         Waisttime := Waisttime + Waisttime;
+      end;
+      Put(" Waisting Time...");
+      new_line;
+   end loop;
+
+end Test;

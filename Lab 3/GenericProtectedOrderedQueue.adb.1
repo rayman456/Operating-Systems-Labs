@@ -1,0 +1,40 @@
+package body GenericProtectedDeck is
+
+   protected body ProtectedOrderedQueue is
+
+      procedure Push(InputItem : in Item; Success : out Boolean) is
+         Temp1 : Integer;
+         Temp2 : Integer;
+      begin
+         if IsFull then
+            Success := False;
+            return;
+         else
+            if IsEmpty then
+               Queue(Last) := InputItem;
+               Last := (Last + 1) mod Size;
+               Count := Count + 1;
+            else
+               Temp1 := Front;
+               while Temp1 /=
+
+         end if;
+      end Push;
+
+      procedure Pop(OutputItem : out Item; Success : out Boolean) is
+      begin
+      end Pop;
+
+      function IsFull return Boolean is
+      begin
+         return Count = Size;
+      end IsFull;
+
+      function IsEmpty return Boolean is
+      begin
+         return Count = 0;
+      end IsEmpty;
+
+   end ProtectedOrderedQueue;
+
+end GenericProtectedQueue;

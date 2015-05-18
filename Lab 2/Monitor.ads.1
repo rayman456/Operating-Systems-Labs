@@ -1,0 +1,15 @@
+generic
+   type Item is private;
+   type ma
+
+package Monitor is
+
+   protected type Resource_Monitor(Resource_Count: Positive := 1) is
+     entry Reserve (Id : out Integer);
+     procedure Release (Id : in Integer);
+     function Available return Boolean;
+   private
+     ReserveArray: array (1..Resource_Count) of Boolean := (others => False); --Protected Resource
+   end Counting_Semaphore;
+
+end Monitor;

@@ -1,0 +1,142 @@
+-- Mission Stats for Simulation --
+Status: FAILURE
+Total # of Phaser Probes:  1
+Phaser Probes Destroyed:  1
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  2
+Total # of Asteroids Destroyed: 31
+Shield Damage Taken:  5
+
+-- Mission Stats for Simulation --
+Status: FAILURE
+Total # of Phaser Probes:  2
+Phaser Probes Destroyed:  2
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  2
+Total # of Asteroids Destroyed: 28
+Shield Damage Taken:  5
+
+-- Mission Stats for Simulation --
+Status: FAILURE
+Total # of Phaser Probes:  3
+Phaser Probes Destroyed:  3
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  2
+Total # of Asteroids Destroyed: 35
+Shield Damage Taken:  5
+
+-- Mission Stats for Simulation --
+Status: FAILURE
+Total # of Phaser Probes:  4
+Phaser Probes Destroyed:  4
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  2
+Total # of Asteroids Destroyed: 34
+Shield Damage Taken:  5
+
+-- Mission Stats for Simulation --
+Status: FAILURE
+Total # of Phaser Probes:  5
+Phaser Probes Destroyed:  5
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  2
+Total # of Asteroids Destroyed: 29
+Shield Damage Taken:  5
+
+-- Mission Stats for Simulation --
+Status: FAILURE
+Total # of Phaser Probes:  6
+Phaser Probes Destroyed:  6
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  2
+Total # of Asteroids Destroyed: 40
+Shield Damage Taken:  5
+
+-- Mission Stats for Simulation --
+Status: FAILURE
+Total # of Phaser Probes:  7
+Phaser Probes Destroyed:  7
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  2
+Total # of Asteroids Destroyed: 37
+Shield Damage Taken:  5
+
+-- Mission Stats for Simulation --
+Status: FAILURE
+Total # of Phaser Probes:  8
+Phaser Probes Destroyed:  8
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  2
+Total # of Asteroids Destroyed: 47
+Shield Damage Taken:  5
+
+-- Mission Stats for Simulation --
+Status: SUCCESS
+Total # of Phaser Probes:  9
+Phaser Probes Destroyed:  9
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  2
+Total # of Asteroids Destroyed: 55
+Shield Damage Taken:  4
+
+-- Mission Stats for Simulation --
+Status: SUCCESS
+Total # of Phaser Probes: 10
+Phaser Probes Destroyed:  8
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  2
+Total # of Asteroids Destroyed: 55
+Shield Damage Taken:  1
+
+-- Mission Stats for Simulation --
+Status: SUCCESS
+Total # of Phaser Probes: 11
+Phaser Probes Destroyed: 11
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  2
+Total # of Asteroids Destroyed: 55
+Shield Damage Taken:  4
+
+-- Mission Stats for Simulation --
+Status: SUCCESS
+Total # of Phaser Probes: 12
+Phaser Probes Destroyed: 10
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  2
+Total # of Asteroids Destroyed: 55
+Shield Damage Taken:  2
+
+-- Mission Stats for Simulation --
+Status: FAILURE
+Total # of Phaser Probes: 13
+Phaser Probes Destroyed: 13
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  2
+Total # of Asteroids Destroyed: 49
+Shield Damage Taken:  5
+
+-- Mission Stats for Simulation --
+Status: SUCCESS
+Total # of Phaser Probes: 14
+Phaser Probes Destroyed:  8
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  1
+Total # of Asteroids Destroyed: 55
+Shield Damage Taken:  0
+
+-- Mission Stats for Simulation --
+Status: SUCCESS
+Total # of Phaser Probes: 15
+Phaser Probes Destroyed: 10
+Total # of Torpedo Probes:  2
+Torpedo Probes Destroyed:  2
+Total # of Asteroids Destroyed: 55
+Shield Damage Taken:  2
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+package body Monitor is
+
+   protected body Resource_Monitor is
+      entry Reserve (Id : out Integer; Item_Address : out Item_Pointer) when Available is
+      begin
+         --Look through resource array for unreserved resource,
+         --reserve that resource and output its ID and pointer.
+         Id := 1;
+         Item_Address := new Item;
+      end Reserve;
+
+      procedure Release (Id : in Integer) is
+      begin
+         --Set an item to unreserved based on Id
+         null;
+      end Release;
+
+      function Available return Boolean is
+      begin
+         --return true is there is some resource available, otherwise return false
+         return false;
+      end Available;
+   end Resource_Monitor;
+
+
+end Monitor;

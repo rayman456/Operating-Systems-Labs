@@ -1,0 +1,57 @@
+V "GNAT Lib v3.13 "
+P
+R vnvnnnnvnnnnvvvvnvvvnnnnvnnnnnvnnnnnnnnnvnn
+
+U semaphore%b		semaphore.adb		24C04278 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U semaphore%s		semaphore.ads		46EE4472 PK
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		19941113100442 2359F9ED
+D a-except.ads		20000206195838 287FCF69
+D a-finali.ads		19971119213818 3F32DEEF
+D a-filico.ads		19970305085844 1DECB9AC
+D a-stream.ads		19971119213846 5F7C277B
+D a-tags.ads		19980811043500 45EF7E4E
+D interfac.ads		19990427103020 0357E00A
+D i-c.ads		19970516080708 30F7C341
+D i-cstrin.ads		19941113132132 462439BF
+D semaphore.ads		20150415003934 46EE4472
+D semaphore.adb		20150415003938 622E060A
+D system.ads		20000127081654 4379A8A7
+D s-exctab.ads		19990919165914 7A25F5F9
+D s-finimp.ads		19980221074008 1C201C0F
+D s-finroo.ads		19960922055928 166D4EDA
+D s-osinte.ads		20000204233350 6053C40D
+D s-parame.ads		20000204233622 25FE086A
+D s-secsta.ads		19990723212132 60A2A5CD
+D s-soflin.ads		19991222154230 006B24D7
+D s-stache.ads		19990409191030 42B57F2A
+D s-stalib.ads		20000204233632 438B3864
+D s-stoele.ads		19980907210904 131D4539
+D s-stratt.ads		19981014075624 1761725B
+D s-tasinf.ads		19990212001120 0F7BBEC5
+D s-taspri.ads		19990723195314 39586323
+D s-taskin.ads		19990723195358 09146F23
+D s-taprob.ads		19991118193910 1D5668B3
+D s-tpoben.ads		19990822022230 4D0A0C24
+D s-tpobop.ads		19990105020732 4916EA6C
+D s-unstyp.ads		19990702065612 78AFB91D
+D unchconv.ads		19960730094842 72DC4539
+X 10 semaphore.ads
+1U9*Semaphore 11|1b14
+3W19*Counting_Semaphore 11|3b19
+3i38 Start_Count 8r32
+4Y12 Secure 11|5b13
+5U16 Release 11|10b17
+6U15 Count 11|15b16
+8i6 Current_Count 11|5r25 7r10 7r27 12r10 12r27 17r17
+

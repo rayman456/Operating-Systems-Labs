@@ -1,0 +1,13 @@
+with Ada.Interrupts;
+use Ada.Interrupts;
+
+package Boption  is
+
+   pragma Elaborate_Body;
+
+   protected type Device_Interface (Int_ID : Interrupt_ID) is
+      procedure Handler;
+      pragma Attach_Handler(Handler, Int_ID);
+   end Device_Interface;
+
+end Boption;

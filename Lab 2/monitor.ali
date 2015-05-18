@@ -1,0 +1,28 @@
+V "GNAT Lib v3.13 "
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U monitor%b		monitor.adb		792B6BE4 PK GE
+
+U monitor%s		monitor.ads		0510BF0E NE PK GE
+
+D monitor.ads		20150417182930 0510BF0E
+D monitor.adb		20150417183026 7C3BD4EA
+X 1 monitor.ads
+2i4 Max_Resource 5r44
+3G9*Monitor 2|1b14
+5I12 Item_Range 6r41
+6A9 Reservable_Item_Array 13r23
+8W19 Resource_Monitor 2|3b19
+9Y13 Reserve 2|4b13
+9i22 Id 2|11m16
+10U17 Release 2|18b17
+10i26 Id 2|18b26 21r24
+11U16 Available 2|4r45 24b16
+13a7 Resource_List 2|9r19 10r16 12r16 21r10 27r19 28r16
+X 2 monitor.adb
+4i22 Id
+8L10 ReserveLoop 13r21
+9i14 I 10r30 11r22 12r30
+27i14 I 28r30
+

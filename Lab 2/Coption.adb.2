@@ -1,0 +1,105 @@
+with Ada.Text_IO, Ada.Calendar, Ada.Numerics.Float_Random, Semaphore;
+use Ada.Text_IO, Ada.Calendar, Ada.Numerics.Float_Random, Semaphore;
+
+procedure Coption is
+
+   package Duration_IO is new Ada.Text_IO.Fixed_IO(duration);  use Duration_IO;
+   package integerIO is new Ada.Text_IO.Integer_IO(integer); use integerIO;
+
+   randNum: Generator;
+   OfficerSemaphore : Counting_Semaphore(2); --Controls number of ships allowed to land at once
+   OfficerMutex : Counting_Semaphore; --Allows for mutual exclusion when picking a landing officer to use.
+
+   type ShuttleName is
+     (Enterprise,
+      Atlantis,
+      Challenger,
+      Ranger,
+      Nemesis,
+      Titan,
+      Hyperion,
+      Xwing,
+      Elysium,
+      Serenity);
+
+   package ShuttleNameIO is new Ada.Text_IO.Enumeration_IO(ShuttleNameType);
+   use ShuttleNameIO;
+
+   task type Spaceship (N : in ShuttleName) is
+      Name : ShuttleName := N;
+   end Spaceship;
+
+   task type LandingOfficer is
+      entry PermissionToLand (N : in ShuttleName);
+      entry CallTheBall (N : in ShuttleName);
+      entry TouchDown (N: in ShuttleName);
+   end LandingOfficer;
+
+   LandingOfficerReserve : array (1..2) of Boolean := (others => False);
+   LandOfficerArray : array (1..2) of LandingOfficer;
+   SpaceshipArray : array (1..10) of Spaceship := (1 => Spaceship(Enterprise),
+      2 => Spaceship(Atlantis),
+      3 => Spaceship(Challenger),
+      4 => Spaceship(Ranger),
+      5 => Spaceship(Nemesis),
+      6 => Spaceship(Titan),
+      7 => Spaceship(Hyperion),
+      8 => Spaceship(Xwing),
+      9 => Spaceship(Elysium),
+      10 => Spaceship(Serenity));
+
+   task body Spaceship is
+      initiateLandingSequence: Duration;
+      LandingComplete: Duration;
+      LandingOfficerNumber : Integer;
+   begin
+      for 1..5 loop
+         delay Duration(Random(RandNum) * 15.0);  --Crew performing mission.
+
+         put(Name); put(" needs to land!");
+         OfficerSemaphore.Secure;  --Secure position in landing queue
+
+         OfficerMutex.Secure; --Secure Landing Officer to use
+         OfficerLoop:
+            for I in range LandingOfficerReserve'Range loop
+               if LandingOfficerReserve(I) = False then
+                  LandingOfficerNumber := Integer(I);
+                  LandingOfficerReserve(I) := True;
+                  exit OfficerLoop;
+               end if;
+               end loop;
+         put(Name); put(" reserved Landing Officer #"); put(LandingOfficerNumber); put("."); new_line;
+         OfficerMutex.Release;
+
+         put(Name); put(" entering its critical section.");  new_line(2);
+         initiateLandingSequence:= seconds(clock);
+         LandingOfficerArray(LandingOfficerNumber).PermissionToLand(Name);
+         LandingOfficerArray(LandingOfficerNumber).CallTheBall(Name);
+         delay Duration(Random(randNum) * 3.0); -- line up shuttle with mother ship
+         LandingOfficerArray(LandingOfficerNumber).TouchDown(Name);
+         landingComplete := seconds(clock);
+         put(Name); put(" docked in "); put( landingComplete - initiateLandingSequence );
+         put(" seconds." ); new_line;
+         put(Name); put(" is leaving its critical section.  Obtain new crew and start next mission.");
+         New_Line(2);
+
+         OfficerMutex.Secure; --Release Landing Officer
+         LandingOfficerReserve(LandingOfficerNumber) := False;
+         put("Landing Officer #"); put(LandingOfficerNumber); put(" is now free for use."); new_line;
+         OfficerMutex.Release;
+
+         OfficerSemaphore.Release; -- Free position in landing queue
+
+         put(Name); put(" has taken off!"); new_line;
+      end loop;
+   end Spaceship;
+
+   task body Landing Officer is
+
+   end Landing Officer;
+
+
+
+begin
+end Coption;
+

@@ -1,0 +1,30 @@
+V "GNAT Lib v3.13 "
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U genericprotectedqueue%b  genericprotectedqueue.adb  55BC0221 PK GE
+
+U genericprotectedqueue%s  genericprotectedqueue.ads  279DCF6D NE PK GE
+
+D genericprotectedqueue.ads  20150421145640 279DCF6D
+D genericprotectedqueue.adb  20150421142602 7221CD4C
+X 1 genericprotectedqueue.ads
+2+9 Item 11r38 2|5r37 1|7r45 10r37 2|18r38
+3i4 Size 2|13r36 1|6r44 2|26r38 33r26
+4G9*GenericProtectedQueue 2|1b14
+6I12 Item_Range 7r30
+7A9 Item_Array 15r15
+9W19 ProtectedQueue 2|3b19
+10U17 Push 2|5b17
+10+22 InputItem 2|5b22 12r28
+10e43 Success 2|5b43 8m13 11m13
+11U17 Pop 2|18b17
+11+21 OutputItem 2|18b21 25m13
+11e44 Success 2|18b44 21m13 24m13
+12U16 IsFull 2|7r13 31b16
+13U16 IsEmpty 2|20r13 36b16
+15a7 Queue 2|12r13 25r27
+16i7 First 2|25r33 26m13 26r23
+17i7 Last 2|12r19 13m13 13r22
+18i7 Count 2|14m13 14r22 27m13 27r22 33r17 38r17
+

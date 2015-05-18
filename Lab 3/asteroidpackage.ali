@@ -1,0 +1,100 @@
+V "GNAT Lib v3.13 "
+P
+R nnvnnvvvnnnnvvvvvvvvnnnnnnnnnnvnnnnnnnnnnnn
+
+U asteroidpackage%b	asteroidpackage.adb	74A4A4B5 PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U asteroidpackage%s	asteroidpackage.ads	1E8D99F8 NE PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+
+D ada.ads		19941113100442 2359F9ED
+D a-calend.ads		19971119213804 0E1F0C88
+D a-except.ads		20000206195838 287FCF69
+D a-finali.ads		19971119213818 3F32DEEF
+D a-filico.ads		19970305085844 1DECB9AC
+D a-flteio.ads		19970318122320 5AF53864
+D a-inteio.ads		19941113100258 767F630A
+D a-ioexce.ads		19941113132010 175CB67B
+D a-stream.ads		19971119213846 5F7C277B
+D a-tags.ads		19980811043500 45EF7E4E
+D a-textio.ads		20000206195936 2D24B708
+D a-tifiio.ads		19971119213940 3F07A552
+D a-tifiio.adb		19990729233544 4A2FF8C0
+D a-tiflau.ads		19971119213942 693E19E9
+D a-tiflio.ads		19971119213944 496A5831
+D a-tiinio.ads		19971119213950 284C234E
+D asteroidpackage.ads	20150421180842 10929570
+D asteroidpackage.adb	20150421181004 6598DDA3
+D interfac.ads		19990427103020 0357E00A
+D i-cstrea.ads		19991223213434 70A316EF
+D system.ads		20000127081654 4379A8A7
+D s-exctab.ads		19990919165914 7A25F5F9
+D s-ficobl.ads		19990213013920 0C03FD47
+D s-finimp.ads		19980221074008 1C201C0F
+D s-finroo.ads		19960922055928 166D4EDA
+D s-parame.ads		20000204233622 25FE086A
+D s-secsta.ads		19990723212132 60A2A5CD
+D s-soflin.ads		19991222154230 006B24D7
+D s-stache.ads		19990409191030 42B57F2A
+D s-stalib.ads		20000204233632 438B3864
+D s-stoele.ads		19980907210904 131D4539
+D s-stratt.ads		19981014075624 1761725B
+D s-unstyp.ads		19990702065612 78AFB91D
+D unchconv.ads		19960730094842 72DC4539
+X 1 ada.ads
+18U9*Ada 17|1r6 2r5 18|1r6 1r19 1r38 2r5 2r18 2r37 6r31
+X 2 a-calend.ads
+40U13*Calendar 17|1r10 2r9
+54U13*Clock 18|33r60 38r59
+59U13*Seconds 18|33r52 38r51
+X 6 a-flteio.ads
+22U13*Float_Text_IO 18|1r23 2r22
+X 7 a-inteio.ads
+20U13*Integer_Text_IO 18|1r42 2r41
+X 11 a-textio.ads
+51U13*Text_IO 18|1r10 2r9 6r35
+169U14*New_Line 18|43r87 44r103 45r93
+245U14*Put 18|43r7 43r34 43r44 44r7 44r34 44r44 45r7 45r34 45r44
+X 12 a-tifiio.ads
+49G21*Fixed_IO 18|6r43
+71U14*Put 18|44r71 45r64
+X 16 a-tiinio.ads
+69U14*Put 18|43r18 43r69 44r18 45r18
+X 17 asteroidpackage.ads
+4U9*AsteroidPackage 18|4b14
+6R9*Asteroid 8r32 26c9
+8P9*Asteroid_Ptr 18|31r34 17|12r28 16r33 20r44 18|8r33 17|18r34 18|21r28
+. 36r44 41r32 17|10r30 14r44 22r32 18|16r30 26r44
+10U13*GetSize 18|16b13
+10p21 Ast 18|16b21 18r14
+12U13*GetID 18|21b13
+12p19 Ast 18|21b19 23r14
+14U13*GetAbsoluteImpactTime 18|26b13
+14p35 Ast 18|26b35 28r14 28r30
+16U14*Construct 18|8b14
+16p24 Ast 18|8b24 10r7 10m11 11r7 11m11 12r7 12m11 13r7 13m11
+16i47 AstID 18|8b47 10r17
+16i67 SizeInput 18|8b67 11r19
+16o91 ImpactTime 18|8b91 12r27
+16o117 FoundTime 18|8b117 13r24
+18U13*HasImpacted 18|31b13
+18p25 Ast 18|31b25 33r15 33r31
+20U13*RemainingTimeToImpact 18|36b13
+20p35 Ast 18|36b35 38r15 38r31
+22U14*ToString 18|41b14
+22p23 Ast 18|41b23 43r22 43r73 44r22 44r75 45r22 45r68
+28i7*ID 18|10r11 23r18 43r26 44r26 45r26
+29i7*Size 18|11r11 18r18 43r77
+30o7*TimeToImpact 18|12r11 28r34 33r35 38r35 44r79
+31o7*TimeFound 18|13r11 28r18 33r19 38r19 45r72
+X 18 asteroidpackage.adb
+6U12 Duration_IO 6r68
+

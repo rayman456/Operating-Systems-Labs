@@ -1,0 +1,23 @@
+package body GenericProtectedStack is
+
+   protected body ProtectedStack is
+
+      procedure Push(InputItem : in Item) is
+      begin
+      end Push;
+
+      procedure Pop(InputItem : out Item) is
+      begin
+      end Pop;
+
+      function IsFull return Boolean is
+      begin
+      end IsFull;
+
+      function IsEmpty return Boolean is
+      begin
+      end IsEmpty;
+
+   end ProtectedStack;
+
+end GenericProtectedStack;

@@ -1,0 +1,76 @@
+V "GNAT Lib v3.13 "
+M P W=b
+P
+R nnvvnnvvnnnnvvvvvvvvvnnnvnnvnnvnnnvnnnnnvnn
+
+U boption%b		boption.adb		007DE8C4 NE SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W sigint_handler%s	sigint_handler.adb	sigint_handler.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		19941113100442 2359F9ED
+D a-calend.ads		19971119213804 0E1F0C88
+D a-caldel.ads		19980214231222 6E8ED3D1
+D a-except.ads		20000206195838 287FCF69
+D a-finali.ads		19971119213818 3F32DEEF
+D a-filico.ads		19970305085844 1DECB9AC
+D a-interr.ads		19980627001128 6619C24E
+D a-intnam.ads		19980716003746 432833F3
+D a-ioexce.ads		19941113132010 175CB67B
+D a-stream.ads		19971119213846 5F7C277B
+D a-tags.ads		19980811043500 45EF7E4E
+D a-textio.ads		20000206195936 2D24B708
+D boption.adb		20150429035438 58AE36D8
+D interfac.ads		19990427103020 0357E00A
+D i-c.ads		19970516080708 30F7C341
+D i-cstrin.ads		19941113132132 462439BF
+D i-cstrea.ads		19991223213434 70A316EF
+D sigint_handler.ads	20150429034906 75F76914
+D system.ads		20000127081654 4379A8A7
+D s-exctab.ads		19990919165914 7A25F5F9
+D s-ficobl.ads		19990213013920 0C03FD47
+D s-finimp.ads		19980221074008 1C201C0F
+D s-finroo.ads		19960922055928 166D4EDA
+D s-intman.ads		19980914200336 6BEEF880
+D s-interr.ads		20000204233614 0D5C7D18
+D s-osinte.ads		20000204233350 6053C40D
+D s-parame.ads		20000204233622 25FE086A
+D s-secsta.ads		19990723212132 60A2A5CD
+D s-soflin.ads		19991222154230 006B24D7
+D s-stache.ads		19990409191030 42B57F2A
+D s-stalib.ads		20000204233632 438B3864
+D s-stoele.ads		19980907210904 131D4539
+D s-stratt.ads		19981014075624 1761725B
+D s-tasinf.ads		19990212001120 0F7BBEC5
+D s-taspri.ads		19990723195314 39586323
+D s-taskin.ads		19990723195358 09146F23
+D s-taprob.ads		19991118193910 1D5668B3
+D s-tpoben.ads		19990822022230 4D0A0C24
+D s-tassta.ads		19990729161138 72B0D55C
+D s-unstyp.ads		19990702065612 78AFB91D
+D unchconv.ads		19960730094842 72DC4539
+X 1 ada.ads
+18U9*Ada 13|1r6 2r5
+X 12 a-textio.ads
+51U13*Text_IO 13|1r10 2r9
+260U14*Put_Line 13|21r10 26r10
+X 13 boption.adb
+4U11*Boption
+6X4 User_Exception 11r16 25r12
+8U14 CheckMaxInterrupts 20r10
+15t9 Sig_Handler
+X 18 sigint_handler.ads
+4U9*Sigint_Handler 13|1r19 2r18
+6w14*Handler 13|10r10
+8U16 Check 13|10r18
+

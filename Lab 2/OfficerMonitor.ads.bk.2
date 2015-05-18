@@ -1,0 +1,24 @@
+generic
+   type Item is limited private;
+   Max_Resource : in Positive;
+package OfficerMonitor is
+
+   subtype Item_Range is Positive range 1..Max_Resource;
+   type Reservab_Item is
+   record
+      Reserved : Boolean := False;
+      Officer : aliased Item;
+   end record;
+   type LandingOfficerArray is aliased array (LandingOfficerRange) of ReservableOfficer;
+   type Item_Ptr is access all Item;
+   type
+
+   protected type LandingOfficerMonitor(Input_Array : in ) is
+      entry  Reserve (Id : out Integer; OfficerAccess : out OfficerPtr);
+      procedure Release (Id : in Integer);
+      function Available return Boolean;
+   private
+      OfficerArray : LandingOfficerArray;
+   end LandingOfficerMonitor;
+
+end OfficerMonitor;

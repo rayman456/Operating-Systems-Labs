@@ -1,0 +1,28 @@
+V "GNAT Lib v3.13 "
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U genericprotectedstack%b  genericprotectedstack.adb  54B57E4F PK GE
+
+U genericprotectedstack%s  genericprotectedstack.ads  1C7207A5 NE PK GE
+
+D genericprotectedstack.ads  20150420042534 1C7207A5
+D genericprotectedstack.adb  20150420220538 48C779EA
+X 1 genericprotectedstack.ads
+2+9 Item 2|5r37 1|11r41 2|17r38 1|7r48 10r40
+3i4 Size 2|31r23 1|6r47
+4G9*GenericProtectedStack 2|1b14
+6I15 Item_Range 7r33
+7A12 Item_Array 15r18
+9W22 ProtectedStack 2|3b19
+10U20 Push 2|5b17
+10+25 InputItem 2|5b22 13r27
+10e46 Success 2|5b43 8m13 11m13
+11U20 Pop 2|17b17
+11+24 OutputItem 2|17b21 24m13
+11e47 Success 2|17b44 20m13 23m13
+12U19 IsFull 2|7r13 29b16
+13U19 IsEmpty 2|19r13 34b16
+15a10 Stack 2|13r13 24r27
+16i10 Top 2|12m13 12r20 13r19 24r33 25m13 25r20 31r17 36r17
+

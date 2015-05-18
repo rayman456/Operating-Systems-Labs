@@ -1,0 +1,72 @@
+with Ada.Text_IO, Ada.Calendar, Ada.Numerics.Float_Random, Semaphore;
+use Ada.Text_IO, Ada.Calendar, Ada.Numerics.Float_Random, Semaphore;
+
+procedure Coption is
+
+   package Duration_IO is new Ada.Text_IO.Fixed_IO(duration);  use Duration_IO;
+   package integerIO is new Ada.Text_IO.Integer_IO(integer); use integerIO;
+
+   randNum: Generator;
+   Semaphore : Counting_Semaphore(2);
+
+   type ShuttleName is
+     (Enterprise,
+      Atlantis,
+      Challenger,
+      Ranger,
+      Nemesis,
+      Titan,
+      Hyperion,
+      Xwing,
+      Elysium,
+      Serenity);
+
+   package ShuttleNameIO is new Ada.Text_IO.Enumeration_IO(ShuttleNameType);
+   use ShuttleNameIO;
+
+   task type Spaceship (N : in ShuttleName) is
+      Name : ShuttleName := N;
+   end Spaceship;
+
+   task type LandingOfficer(N : in ShuttleName) is
+      entry PermissionToLand (N :)
+      Name : ShuttleName := N;
+   end LandingOfficer;
+
+   type LandOfficerArray is array ()
+
+   function GetFreeLandingOfficer()
+
+   task body Spaceship is
+      initiateLandingSequence: Duration;
+      LandingComplete: Duration;
+   begin
+      for 1..5 loop
+         delay Duration(Random(RandNum) * 15.0);  --Crew boarding and perform mission.
+
+
+         put(Name); put(" entering its critical section.");  new_line(2);
+         initiateLandingSequence:= seconds(clock);
+         --LandingControlOfficer( Permission_To_Land, Atlantis );
+         --LandingControlOfficer( Call_The_Ball, Atlantis );
+         delay Duration(Random(randNum) * 3.0); -- line up shuttle with mother ship
+         --LandingControlOfficer( Touch_Down, Atlantis );
+         landingComplete := seconds(clock);
+         put(Name); put(" docked in "); put( landingComplete - initiateLandingSequence );
+         put(" seconds." ); new_line;
+         put("Atlantis leavings its critical section.  Obtain new crew and start next mission.");
+         New_Line(2);
+
+
+      end loop;
+   end Spaceship;
+
+   task body Landing Officer is
+
+   end Landing Officer;
+
+
+
+begin
+end Coption;
+

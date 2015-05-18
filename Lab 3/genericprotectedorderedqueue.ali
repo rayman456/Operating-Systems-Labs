@@ -1,0 +1,41 @@
+V "GNAT Lib v3.13 "
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U genericprotectedorderedqueue%b  genericprotectedorderedqueue.adb  16AE7033 PK GE
+
+U genericprotectedorderedqueue%s  genericprotectedorderedqueue.ads  094D8874 NE PK GE
+
+D genericprotectedorderedqueue.ads  20150421155452 094D8874
+D genericprotectedorderedqueue.adb  20150421160620 1FE3F847
+X 1 genericprotectedorderedqueue.ads
+2+9 Item 4r41 2|51r38 1|10r45 13r37 14r38 2|5r37
+3+9 PriorityType 4r54 5r34
+4U18 GetPriority 2|22r45 22r71
+4+30 Input
+5U18 ">=" 2|22r68
+5+24 A
+5+27 B
+6i4 Size 2|23r44 32r37 1|9r44 2|17r39 28r42 32r51 39r53 39r67 40r40 40r54
+. 44r42 59r38 66r25
+7G9*GenericProtectedOrderedQueue 2|1b14
+9I12 Item_Range 10r30
+10A9 Item_Array 18r14
+12W19 ProtectedOrderedQueue 2|3b19
+13U17 Push 2|5b17
+13+22 InputItem 2|5b22 16r31 22r57 27r34 33r35 43r35
+13e43 Success 2|5b43 10m13 13m13
+14U17 Pop 2|51b17
+14+21 OutputItem 2|51b21 58m13
+14e44 Success 2|51b44 54m13 57m13
+15U16 IsFull 2|9r13 64b16
+16U16 IsEmpty 2|14r16 53r13 69b16
+18a7 Queue 2|16r16 22r83 27r19 33r19 39r22 39r38 43r19 58r27
+19i7 First 2|21r25 30r30 32m19 32r29 33r25 58r33 59m13 59r23
+20i7 Last 2|16r22 17m16 17r25 22r31 25r27 27r25 28m19 28r28 37r28 44m19 44r28
+21i7 Count 2|18m16 18r25 29m19 29r28 34m19 34r28 45m19 45r28 60m13 60r22
+. 66r17 71r17
+X 2 genericprotectedorderedqueue.adb
+6i10 Temp1 21m16 22r22 22r89 23m19 23r29 25r19 30r22 38r34 43r25
+7i10 Temp2 37m19 38r25 39r28 39r45 40m22 40r32
+

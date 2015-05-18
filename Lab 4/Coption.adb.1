@@ -1,0 +1,40 @@
+with Ada.Text_IO, Ada.Integer_Text_IO, Ada.Calendar;
+use Ada.Text_IO, Ada.Integer_Text_IO. Ada.Calendar;
+
+procedure Coption is
+
+   package DurationIO is new Ada.Text_IO.Fixed_IO(Duration); use DurationIO;
+
+   task TimePrinter is
+      entry GiveCountdownTime(Time : in Duration);
+      entry Start;
+   end TimePrinter;
+
+   task body TimePrinter is
+      TotalTime : Duration;
+      TimeLeft :  Duration;
+      Correction : Duration := 0;
+   begin
+      accept GiveCountdownTime(Time : in Duration) do
+         TotalTime := Time;
+         TimeLeft := Time;
+      end GiveCountdownTime;
+
+      accept Start do
+         put("Starting countdown at: ")
+      end Start;
+
+
+
+   end TimePrinter;
+
+   InputTime: in Duration;
+   Timer : TimePrinter;
+
+begin
+   Put("Enter Time to wait: ");
+   Get(InputTime);
+   Timer.GiveCountdownTime(InputTime);
+   Time.Start;
+end Coption;
+

@@ -1,0 +1,209 @@
+V "GNAT Lib v3.13 "
+M P W=b
+P
+R nnvvnvvvnnnnvvvvvvvvvvnnvnnvnvvnvnvnnnnvvnn
+
+U aoption%b		aoption.adb		401D3C23 NE SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+W asteroidpackage%s	asteroidpackage.adb	asteroidpackage.ali
+W genericprotectedorderedqueue%s  genericprotectedorderedqueue.adb  genericprotectedorderedqueue.ali
+W randomfunctions%s	randomfunctions.adb	randomfunctions.ali
+W system%s		system.ads		system.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.string_ops_concat_4%s  s-sopco4.adb	s-sopco4.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		19941113100442 2359F9ED
+D a-calend.ads		19971119213804 0E1F0C88
+D a-caldel.ads		19980214231222 6E8ED3D1
+D a-except.ads		20000206195838 287FCF69
+D a-finali.ads		19971119213818 3F32DEEF
+D a-filico.ads		19970305085844 1DECB9AC
+D a-inteio.ads		19941113100258 767F630A
+D a-ioexce.ads		19941113132010 175CB67B
+D a-numeri.ads		19941113100348 271ACBE2
+D a-nuflra.ads		19980719023644 23E0C99B
+D a-stream.ads		19971119213846 5F7C277B
+D a-tags.ads		19980811043500 45EF7E4E
+D a-textio.ads		20000206195936 2D24B708
+D a-tiinio.ads		19971119213950 284C234E
+D a-uncdea.ads		19951215111606 4130DC21
+D aoption.adb		20150421220314 187A7D98
+D asteroidpackage.ads	20150421180842 10929570
+D genericprotectedorderedqueue.ads  20150421155452 094D8874
+D genericprotectedorderedqueue.adb  20150421160620 1FE3F847
+D interfac.ads		19990427103020 0357E00A
+D i-c.ads		19970516080708 30F7C341
+D i-cstrin.ads		19941113132132 462439BF
+D i-cstrea.ads		19991223213434 70A316EF
+D randomfunctions.ads	20150420051448 762C918F
+D system.ads		20000127081654 4379A8A7
+D s-exctab.ads		19990919165914 7A25F5F9
+D s-ficobl.ads		19990213013920 0C03FD47
+D s-finimp.ads		19980221074008 1C201C0F
+D s-finroo.ads		19960922055928 166D4EDA
+D s-imgint.ads		19951120153032 21B5CB31
+D s-osinte.ads		20000204233350 6053C40D
+D s-parame.ads		20000204233622 25FE086A
+D s-secsta.ads		19990723212132 60A2A5CD
+D s-soflin.ads		19991222154230 006B24D7
+D s-stache.ads		19990409191030 42B57F2A
+D s-stalib.ads		20000204233632 438B3864
+D s-stoele.ads		19980907210904 131D4539
+D s-stratt.ads		19981014075624 1761725B
+D s-strops.ads		19980415084432 3DBA3DD5
+D s-sopco4.ads		19980111022950 5F333A58
+D s-tasinf.ads		19990212001120 0F7BBEC5
+D s-taspri.ads		19990723195314 39586323
+D s-taskin.ads		19990723195358 09146F23
+D s-taprob.ads		19991118193910 1D5668B3
+D s-tpoben.ads		19990822022230 4D0A0C24
+D s-tasren.ads		19981219083326 0A08BEEB
+D s-tassta.ads		19990729161138 72B0D55C
+D s-unstyp.ads		19990702065612 78AFB91D
+D unchconv.ads		19960730094842 72DC4539
+X 1 ada.ads
+18U9*Ada 16|1r40 1r54 1r81 1r102 1r115 2r39 2r53 2r80 2r101 7r26
+X 2 a-calend.ads
+40U13*Calendar 16|1r44 2r43
+54U13*Clock 16|209r43 215r106
+59U13*Seconds 16|209r35 215r98
+X 7 a-inteio.ads
+20U13*Integer_Text_IO 16|1r85 2r84
+X 9 a-numeri.ads
+19U13*Numerics 16|1r58 2r57
+X 10 a-nuflra.ads
+53U22*Float_Random 16|1r67 2r66
+57R9*Generator 16|195r19
+64U14*Reset 16|209r10
+X 13 a-textio.ads
+51U13*Text_IO 16|1r106 2r105
+169U14*New_Line 16|169r13 170r82 171r82 172r91 173r82 174r82 175r82 176r82
+. 177r82 180r13 181r82 182r82 183r91 184r82 185r82 186r82 187r82 188r82
+245U14*Put 16|170r13 171r13 171r55 172r13 173r13 174r13 175r13 176r13 177r13
+. 181r13 182r13 182r55 183r13 184r13 185r13 186r13 187r13 188r13 273r4
+260U14*Put_Line 16|276r4
+X 14 a-tiinio.ads
+59U14*Get 16|273r39
+69U14*Put 16|172r55 173r55 175r55 176r55 177r55 183r55 184r55 186r55 187r55
+. 188r55
+X 15 a-uncdea.ads
+22G15*Unchecked_Deallocation 16|1r119 7r30
+X 16 aoption.adb
+4U11*Aoption
+7U14 Free 116r22 135r28 247r16 259r16
+8E9 DefensiveProbeType 15r61 52r39 61r60 156r46 224r19 234r61
+8N32 Torpedos 17r22 96r40 97r40 157r28 250r31
+8N42 Phasers 25r25 99r55 159r31
+10U13 AstGTE 37r123
+10o21 A 12r14
+10o24 B 12r19
+15U13 TimeToDestroy 243r16 245r22
+15i27 Size 18r13 20r16 22r16 26r13 28r16 30r16
+15e46 ProbeType 17r10 25r13
+37U12 AsteroidOrderedQueuePackage 38r8
+42T9 TFC 44r31 269r25
+43R9 DefensiveProbeArray 45r31 66c9 274r16
+44P9 TFC_Ptr 48r53 57r39 61r39 92r54 196r16 206r41 223r16 234r40
+45P9 DPA_Ptr 48r71 82r22 92r72 270r11
+47T14 TFC 73b14
+48Y13 Initialize 92b14 275r15
+48i24 ID 93r19
+48p41 TFC_ID 95r27 96r32 97r32 99r47
+48p62 DPA 94r26
+49Y13 NotifyOfAsteroid 106b20 217r17
+49p30 NewTarget 112r33 116r27
+50Y13 RequestTarget 123b20 241r17
+50p27 Target 138r28
+50e54 Available 139r28 143r25
+51Y13 NotifyOfTargetDestroyed 151b20 248r23
+52Y13 NotifyOfDeath 156b20 260r23
+52e27 DPType 157r19 159r22
+56T14 ScoutProbe 79r15 193b14
+57Y13 Initialize 95r16 206b14
+57p24 TFCParent 207r20
+60T14 DefensiveProbe 64r44 80r20 81r20 221b14
+61Y13 Initialize 96r21 97r21 99r36 234b14
+61p24 TFCParent 235r20
+61e48 DPType 236r23
+61i80 ProbeID 237r17
+64A9 DPL 68r16
+66i30 NumProbes 68r24
+68a7 Probes 98r32 99r26 172r72 183r72
+75i7 SimID 93m10
+78w7 AstStack 112r19 130r22
+79t7 Scout 95r10
+80t7 TorpedoOne 96r10
+81t7 TorpedoTwo 97r10
+82p7 PhaserProbes 94m10 98r19 99r13 172r59 183r59
+85i7 TorpedoDeaths 158m19 158r36 175r59 186r59
+86i7 PhaserDeaths 160m19 160r35 173r59 184r59
+87i7 Destroyed 117m22 117r35 136m28 136r41 152m16 152r29 162m16 162r29 167r13
+. 176r59 187r59
+88i7 Damage 114m22 114r32 134m28 134r38 177r59 178r16 188r59
+89e7 MissionComplete 103r17 168m13 179m13
+92i25 ID
+92p42 TFC_ID
+92p63 DPA
+98i14 I 99r33 99r64
+106p37 NewTarget
+110e19 Success 112m44 113r26
+123p34 Target
+123e61 Available
+125p19 TempPtr 130m35 132r40 135m33 138r38
+126e19 Success 130m44 131r25
+128L19 GetTargetLoop 140r33 144r30
+156e34 DPType
+195R7 RandomNum 209r16 213r44 215r47 215r85
+196p7 Parent 207m10 217r10
+199p7 Ast 214m10 215r20 217m34
+200i7 AstNumber 215r25 216m10 216r23
+203e7 Recalled 212r17
+206p25 TFCParent
+223p7 Parent 235m10 241r10 248r16 260r16
+224e7 ProbeType 236m10 243r47 245r53 250r19 260r37
+225i7 ID 237m10
+228p7 Target 241m31 243r38 243r83 245r44 247m21 257r44 259m21
+229e7 Available 241m39 242r13
+232e7 SelfDestruct 240r17 261m16
+234p25 TFCParent
+234e49 DPType
+234i81 ProbeID
+269t4 Simulation 275r4 275m29
+270p4 Temp 274m4 275r48
+271i4 NumProbes 273m43 274r36
+X 17 asteroidpackage.ads
+4U9*AsteroidPackage 16|1r23 2r22
+6R9*Asteroid 16|7r53 214r21
+8P9*Asteroid_Ptr 16|7r63 37r76 49r49 50r40 106r56 123r47 125r29 199r13 228r16
+10U13*GetSize 16|243r30 245r36
+14U13*GetAbsoluteImpactTime 16|37r100
+16U14*Construct 16|215r10
+18U13*HasImpacted 16|132r28
+20U13*RemainingTimeToImpact 16|243r61 257r22
+X 18 genericprotectedorderedqueue.ads
+7G9*GenericProtectedOrderedQueue 16|1r143 37r47
+12W19 ProtectedOrderedQueue 16|78r18
+13U17 Push 16|112r28
+14U17 Pop 16|130r31
+X 24 randomfunctions.ads
+4U9*RandomFunctions 16|1r6 2r5
+6U13*RandomPoisson 16|213r25
+8U13*RandomSize 16|215r36
+10U13*RandomImpactTime 16|215r68
+
